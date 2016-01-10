@@ -1,6 +1,6 @@
 ---- Japanese language strings
 
-local L = LANG.CreateLanguage("Japanese")
+local L = LANG.CreateLanguage("日本語")
 
 --- General text used in various places
 L.traitor    = "Traitor"
@@ -8,227 +8,227 @@ L.detective  = "Detective"
 L.innocent   = "Innocent"
 L.last_words = "最期の言葉"
 
-L.terrorists = "テロリスト"
-L.spectators = "観戦者"
+L.terrorists = "Terrorists"
+L.spectators = "Spectators"
 
 --- Round status messages
-L.round_minplayers = "新しいラウンドを開始するにはプレイヤーが足りません..."
-L.round_voting     = "投票が進行中、新しいラウンドは {num} 秒遅延します..."
-L.round_begintime  = "新しいラウンドは {num} 秒で開始されます。覚悟してください。"
-L.round_selected   = "Traitor が選ばれた。"
-L.round_started    = "ラウンドが始まった！"
-L.round_restart    = "管理者によってラウンドが強制的にリスタートされます。"
+L.round_minplayers = "新ラウンドを開始するのに必要なプレイヤー数を満たしていません…"
+L.round_voting     = "投票が進行中のため新ラウンドの開始まで {num} 秒遅れます…"
+L.round_begintime  = "新ラウンド開始まで {num} 秒です。準備してください。"
+L.round_selected   = "Traitorが選ばれました。"
+L.round_started    = "ラウンド開始！"
+L.round_restart    = "管理者によりラウンドが強制的にリスタートされました。"
 
-L.round_traitors_one  = "Traitor, あなたは孤立しています"
-L.round_traitors_more = "Traitor, これらがあなたの味方です: {names}"
+L.round_traitors_one  = "Traitorはあなた一人です。"
+L.round_traitors_more = "Traitor、彼らが仲間です: {names}"
 
-L.win_time         = "時間が無くなりました。Traitor の負けです。"
-L.win_traitor      = "Traitor の勝利です！"
-L.win_innocent     = "Traitor は敗れました！"
-L.win_showreport   = "{num} 秒間のラウンドレポートを見てみましょう。"
+L.win_time         = "時間切れによりTraitorの敗北です。"
+L.win_traitor      = "Traitorの勝利！"
+L.win_innocent     = "Traitorの敗北！"
+L.win_showreport   = "このラウンドの詳細をご覧になる場合は {num} 秒以内にどうぞ。"
 
-L.limit_round      = "ラウンド上限に達しました。 {mapname} はすぐにロードされます。"
-L.limit_time       = "Time limit reached. {mapname} will load soon."
-L.limit_vote       = "Round or time limit reached. Voting time!"
-L.limit_left       = "{num} round(s) or {time} minutes remaining before the map changes to {mapname}."
+L.limit_round      = "ラウンド数上限に達しました。すぐさま {mapname} がロードされます。"
+L.limit_time       = "プレイ時間上限に達しました。すぐさま {mapname} がロードされます。"
+L.limit_vote       = "ラウンド数またはプレイ時間上限に達しました。投票の時間です！"
+L.limit_left       = "{mapname} にマップチェンジされるまで、残り {num} ラウンドまたは {time} 分。"
 
 --- Credit awards
-L.credit_det_all   = "Detectives, you have been awarded {num} equipment credit(s) for your performance."
-L.credit_tr_all    = "Traitors, you have been awarded {num} equipment credit(s) for your performance."
+L.credit_det_all   = "Detective、あなたの活躍に対し {num} クレジットが与えられました。"
+L.credit_tr_all    = "Traitor、あなたの活躍に対し {num} クレジットが与えられました。"
 
-L.credit_kill      = "You have received {num} credit(s) for killing a {role}."
+L.credit_kill      = "{role} を殺したため {num} クレジットを得ました。"
 
 --- Karma
-L.karma_dmg_full   = "Your Karma is {amount}, so you deal full damage this round!"
-L.karma_dmg_other  = "Your Karma is {amount}. As a result all damage you deal is reduced by {num}%"
+L.karma_dmg_full   = "あなたのカルマは {amount} のため、このラウンドでは最大ダメ―ジを与えられます。"
+L.karma_dmg_other  = "あなたのカルマは {amount} のため、与ダメージが {num}% 減少します。"
 
 --- Body identification messages
-L.body_found       = "{finder} found the body of {victim}. {role}"
+L.body_found       = "{finder} が {role} である {victim} の死体を発見しました。"
 
 -- The {role} in body_found will be replaced by one of the following:
-L.body_found_t     = "They were a Traitor!"
-L.body_found_d     = "They were a Detective."
-L.body_found_i     = "They were Innocent."
+L.body_found_t     = "コイツはTraitorです！!"
+L.body_found_d     = "コイツはDetectiveです。"
+L.body_found_i     = "コイツはInnocentです。"
 
-L.body_confirm     = "{finder} confirmed the death of {victim}."
+L.body_confirm     = "{finder} が {victim} の死亡を確認しました。"
 
-L.body_call        = "{player} called a Detective to the body of {victim}!"
-L.body_call_error  = "You must confirm the death of this player before calling a Detective!"
+L.body_call        = "{player} が {victim} の死体を調べるようDetectiveを呼びました！"
+L.body_call_error  = "Detectiveを呼ぶ前にこのプレイヤーの死亡を確認してください！"
 
-L.body_burning     = "Ouch! This corpse is on fire!"
-L.body_credits     = "You found {num} credit(s) on the body!"
+L.body_burning     = "熱っ！この死体は燃えています！ "
+L.body_credits     = "死体から {num} クレジットを発見しました！"
 
 --- Menus and windows
 L.close = "閉じる"
 L.cancel = "キャンセル"
 
 -- For navigation buttons
-L.next = "Next"
-L.prev = "Previous"
+L.next = "進む"
+L.prev = "戻る"
 
 -- Equipment buying menu
 L.equip_title     = "装備"
-L.equip_tabtitle  = "装備を注文"
+L.equip_tabtitle  = "装備一覧"
 
 L.equip_status    = "注文ステータス"
-L.equip_cost      = "You have {num} credit(s) remaining."
-L.equip_help_cost = "Every piece of equipment you buy costs 1 credit."
+L.equip_cost      = "{num} クレジット所持しています。"
+L.equip_help_cost = "装備の価格は全て1クレジットです。"
 
 L.equip_help_carry = "You can only buy things for which you have room."
-L.equip_carry      = "You can carry this equipment."
-L.equip_carry_own  = "You are already carrying this item."
-L.equip_carry_slot = "You are already carrying a weapon in slot {slot}."
+L.equip_carry      = "このアイテムは装備できます。"
+L.equip_carry_own  = "このアイテムは既に持っています。"
+L.equip_carry_slot = "{slot} 番スロットに既に武器があります。"
 
-L.equip_help_stock = "Of certain items you can only buy one per round."
-L.equip_stock_deny = "This item is no longer in stock."
-L.equip_stock_ok   = "This item is in stock."
+L.equip_help_stock = "特定のアイテムは１ラウンドにつき１つまでしか購入できません。"
+L.equip_stock_deny = "このアイテムは品切れです。"
+L.equip_stock_ok   = "このアイテムは在庫ありです。"
 
-L.equip_custom     = "Custom item added by this server."
+L.equip_custom     = "サーバーで追加されたカスタムアイテム"
 
-L.equip_spec_name  = "Name"
-L.equip_spec_type  = "Type"
-L.equip_spec_desc  = "Description"
+L.equip_spec_name  = "名前"
+L.equip_spec_type  = "種類"
+L.equip_spec_desc  = "説明"
 
-L.equip_confirm    = "Buy equipment"
+L.equip_confirm    = "装備を買う"
 
 -- Disguiser tab in equipment menu
 L.disg_name      = "ディスガイザー"
-L.disg_menutitle = "Disguise control"
-L.disg_not_owned = "You are not carrying a Disguiser!"
-L.disg_enable    = "Enable disguise"
+L.disg_menutitle = "変装設定"
+L.disg_not_owned = "ディスガイザーを持っていません！"
+L.disg_enable    = "変装する"
 
-L.disg_help1     = "When your disguise is active, your name, health and karma do not show when someone looks at you. In addition, you will be hidden from a Detective's radar."
-L.disg_help2     = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
+L.disg_help1     = "変装中は他人に見られてもあなたの名前、ヘルス、カルマが表示されません。さらにDetectiveのレーダーからも隠れられます。"
+L.disg_help2     = "テンキーのEnterを押すことで設定画面を開くことなく変装を切り替えられます。またコンソールから 'ttt_toggle_disguise' をバインドすることで他のキーへの設定が可能です。"
 
 -- Radar tab in equipment menu
 L.radar_name      = "レーダー"
-L.radar_menutitle = "Radar control"
-L.radar_not_owned = "You are not carrying a Radar!"
-L.radar_scan      = "Perform scan"
-L.radar_auto      = "Auto-repeat scan"
-L.radar_help      = "Scan results show for {num} seconds, after which the Radar will have recharged and can be used again."
-L.radar_charging  = "Your Radar is still charging!"
+L.radar_menutitle = "レーダー設定"
+L.radar_not_owned = "レーダーを持っていません！"
+L.radar_scan      = "スキャン実行"
+L.radar_auto      = "自動再スキャン"
+L.radar_help      = "スキャンの結果は {num} 秒間表示されます。その後レーダーはリチャージされ再使用が可能になります。"
+L.radar_charging  = "レーダーはチャージ中です！"
 
 -- Transfer tab in equipment menu
-L.xfer_name       = "譲渡"
-L.xfer_menutitle  = "クレジットを譲渡する"
-L.xfer_no_credits = "渡すクレジットを持っていません！"
-L.xfer_send       = "クレジットを送信"
-L.xfer_help       = "仲間の {role} であるプレイヤーにのみクレジットを譲渡できます。"
+L.xfer_name       = "送金"
+L.xfer_menutitle  = "クレジット送金"
+L.xfer_no_credits = "送金できるクレジットがありません！"
+L.xfer_send       = "クレジットを送る"
+L.xfer_help       = "仲間である {role} のプレイヤーへのみ送金できます。"
 
-L.xfer_no_recip   = "受け手が有効ではありません。クレジットの譲渡が中止されました。"
-L.xfer_no_credits = "Insufficient credits for transfer."
-L.xfer_success    = "Credit transfer to {player} completed."
-L.xfer_received   = "{player} has given you {num} credit."
+L.xfer_no_recip   = "受取人が不正です。送金はキャンセルされました。"
+L.xfer_no_credits = "クレジット所持量が送金に必要な額を満たしていません。"
+L.xfer_success    = "{player} へのクレジットの送金が完了しました。completed."
+L.xfer_received   = "{player} が {num} クレジットを送金してきました。"
 
 -- Radio tab in equipment menu
 L.radio_name      = "ラジオ"
-L.radio_help      = "Click a button to make your Radio play that sound."
-L.radio_notplaced = "You must place the Radio to play sound on it."
+L.radio_help      = "ボタンをクリックすることでラジオから音を再生できます。"
+L.radio_notplaced = "音を再生するにはラジオを設置しなければなりません。"
 
 -- Radio soundboard buttons
-L.radio_button_scream  = "Scream"
-L.radio_button_expl    = "Explosion"
-L.radio_button_pistol  = "Pistol shots"
-L.radio_button_m16     = "M16 shots"
-L.radio_button_deagle  = "Deagle shots"
-L.radio_button_mac10   = "MAC10 shots"
-L.radio_button_shotgun = "Shotgun shots"
-L.radio_button_rifle   = "Rifle shot"
-L.radio_button_huge    = "H.U.G.E burst"
-L.radio_button_c4      = "C4 beeping"
-L.radio_button_burn    = "Burning"
-L.radio_button_steps   = "Footsteps"
+L.radio_button_scream  = "断末魔"
+L.radio_button_expl    = "爆発音"
+L.radio_button_pistol  = "Pistolの銃声"
+L.radio_button_m16     = "M16の銃声"
+L.radio_button_deagle  = "Deagleの銃声"
+L.radio_button_mac10   = "MAC10の銃声"
+L.radio_button_shotgun = "Shotgunの銃声"
+L.radio_button_rifle   = "Rifleの銃声"
+L.radio_button_huge    = "H.U.G.Eの銃声"
+L.radio_button_c4      = "C4の動作音"
+L.radio_button_burn    = "炎上音"
+L.radio_button_steps   = "足音"
 
 
 -- Intro screen shown after joining
-L.intro_help     = "If you're new to the game, press F1 for instructions!"
+L.intro_help     = "TTTは初めてですか？F1キーを押してガイドを読みましょう！"
 
 -- "Continue playing" vote
-L.contvote_continue = "Continue playing this"
-L.contvote_change   = "Start a vote"
+L.contvote_continue = "プレイを継続"
+L.contvote_change   = "投票を開始する"
 
 -- Radiocommands/quickchat
-L.quick_title   = "Quickchat keys"
+L.quick_title   = "クイックチャットキー"
 
-L.quick_yes     = "Yes."
-L.quick_no      = "No."
-L.quick_help    = "Help!"
-L.quick_imwith  = "I'm with {player}."
-L.quick_see     = "I see {player}."
-L.quick_suspect = "{player} acts suspicious."
-L.quick_traitor = "{player} is a Traitor!"
-L.quick_inno    = "{player} is innocent."
-L.quick_check   = "Anyone still alive?"
+L.quick_yes     = "はい。"
+L.quick_no      = "いいえ。"
+L.quick_help    = "助けて！"
+L.quick_imwith  = "{player}と行動中。"
+L.quick_see     = "{player}を発見。"
+L.quick_suspect = "{player}が不審な行動をとっている。"
+L.quick_traitor = "{player}はTraitorだ！"
+L.quick_inno    = "{player}はInnocentだ。"
+L.quick_check   = "まだ誰か生き残っているか？"
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
 L.quick_nobody    = "nobody"
-L.quick_disg      = "someone in disguise"
-L.quick_corpse    = "an unidentified body"
-L.quick_corpse_id = "{player}'s corpse"
+L.quick_disg      = "変装した誰か"
+L.quick_corpse    = "未確認の死体"
+L.quick_corpse_id = "{player}の死体"
 
 
 --- Body search window
-L.search_title  = "ボディーチェックの結果"
+L.search_title  = "死体検査結果"
 L.search_info   = "情報"
 L.search_confirm = "死亡を確認"
-L.search_call   = "Detective を呼び出す"
+L.search_call   = "Detectiveを呼ぶ"
 
 -- Descriptions of pieces of information found
-L.search_nick   = "This is the body of {player}."
+L.search_nick   = "これは {player} の死体です。"
 
-L.search_role_t = "この人物は Traitor でした！"
-L.search_role_d = "この人物は Detective でした。"
-L.search_role_i = "この人物は Innocent でした。"
+L.search_role_t = "コイツはTraitorでした！"
+L.search_role_d = "コイツはDetectiveでした。"
+L.search_role_i = "コイツはInnocentでした。"
 
-L.search_words  = "Something tells you some of this person's last words were: '{lastwords}'"
-L.search_armor  = "They were wearing nonstandard body armor."
-L.search_disg   = "They were carrying a device that could hide their identity."
-L.search_radar  = "They were carrying some sort of radar. It is no longer functioning."
-L.search_c4     = "In a pocket you found a note. It states that cutting wire {num} will safely disarm the bomb."
+L.search_words  = "このプレイヤーの最期の言葉「{lastwords}」"
+L.search_armor  = "通常とは異なるボディアーマーを着ていました。"
+L.search_disg   = "変装して身元を隠せるデバイスを持っていました。"
+L.search_radar  = "レーダーを持っていたようですが、もはや使い物になりません。"
+L.search_c4     = "ポケットを探ると紙切れが見つかりました。それによると{num}本のワイヤを切れば安全に爆弾を解除出来るようです。"
 
-L.search_dmg_crush  = "Many of their bones are broken. It seems the impact of a heavy object killed them."
-L.search_dmg_bullet = "It is obvious they were shot to death."
-L.search_dmg_fall   = "They fell to their death."
-L.search_dmg_boom   = "Their wounds and singed clothes indicate an explosion caused their end."
-L.search_dmg_club   = "The body is bruised and battered. Clearly they were clubbed to death."
-L.search_dmg_drown  = "The body shows the telltale signs of drowning."
-L.search_dmg_stab   = "They were stabbed and cut before quickly bleeding to death."
-L.search_dmg_burn   = "Smells like roasted terrorist around here..."
-L.search_dmg_tele   = "It looks like their DNA was scrambled by tachyon emissions!"
-L.search_dmg_car    = "When this terrorist crossed the road, they were run over by a reckless driver."
-L.search_dmg_other  = "You cannot find a specific cause of this terrorist's death."
+L.search_dmg_crush  = "体中の骨が砕けています。何かをぶつけられた衝撃で死んだようです"
+L.search_dmg_bullet = "どう見ても射殺されています。"
+L.search_dmg_fall   = "落下死したようです。"
+L.search_dmg_boom   = "傷と衣服の状態からみて爆発により最期を遂げたようです。"
+L.search_dmg_club   = "死体はボコボコです。どうみても撲殺されています。"
+L.search_dmg_drown  = "この死体は明らかに溺死した模様です。"
+L.search_dmg_stab   = "背中を一刺しされ失血死したようです。"
+L.search_dmg_burn   = "焼きテロリストの香りが辺りに漂っている…"
+L.search_dmg_tele   = "タキオン放射によりDNAをぐちゃぐちゃにされたようです！"
+L.search_dmg_car    = "このテロリストは道路を渡ろうとして危険運転の車に轢き殺されたようです。"
+L.search_dmg_other  = "このテロリストの死因を特定できませんでした。"
 
-L.search_weapon = "It appears a {weapon} was used to kill them."
-L.search_head   = "The fatal wound was a headshot. No time to scream."
-L.search_time   = "They died roughly {time} before you conducted the search."
-L.search_dna    = "Retrieve a sample of the killer's DNA with a DNA Scanner. The DNA sample will decay roughly {time} from now."
+L.search_weapon = "この死体は {weapon} で殺されたようです。"
+L.search_head   = "ヘッドショットが致命傷となり、叫ぶ暇も無かったようです。"
+L.search_time   = "この死体は発見までにおよそ {time} が経過しているようです。"
+L.search_dna    = "DNAスキャナーで殺害者のDNAサンプルを回収しましょう。DNAサンプルは今からおよそ {time} で消失します。"
 
-L.search_kills1 = "You found a list of kills that confirms the death of {player}."
-L.search_kills2 = "You found a list of kills with these names:"
-L.search_eyes   = "Using your detective skills, you identified the last person they saw: {player}. The killer, or a coincidence?"
+L.search_kills1 = "{player} の死亡を確認した殺害リストを発見しました。"
+L.search_kills2 = "発見した殺害リストに記されていた名前は次の通りです:"
+L.search_eyes   = "探偵の手腕によりこの死体が最期に見たのは {player} であることが判明しました。彼が殺害者でしょうか？それともただの偶然？"
 
 
 -- Scoreboard
-L.sb_playing    = "You are playing on..."
-L.sb_mapchange  = "Map changes in {num} rounds or in {time}"
+L.sb_playing    = "現在プレイ中のサーバーは…"
+L.sb_mapchange  = "マップチェンジまであと {num} ラウンドまたは {time}"
 
-L.sb_mia        = "Missing In Action"
-L.sb_confirmed  = "Confirmed Dead"
+L.sb_mia        = "行方不明"
+L.sb_confirmed  = "死亡確認"
 
 L.sb_ping       = "Ping"
-L.sb_deaths     = "Deaths"
-L.sb_score      = "Score"
-L.sb_karma      = "Karma"
+L.sb_deaths     = "死亡数"
+L.sb_score      = "スコア"
+L.sb_karma      = "カルマ"
 
 L.sb_info_help  = "Search this player's body, and you can review the results here."
 
-L.sb_tag_friend = "FRIEND"
-L.sb_tag_susp   = "SUSPECT"
-L.sb_tag_avoid  = "AVOID"
-L.sb_tag_kill   = "KILL"
-L.sb_tag_miss   = "MISSING"
+L.sb_tag_friend = "味方"
+L.sb_tag_susp   = "怪しい"
+L.sb_tag_avoid  = "避けるべし"
+L.sb_tag_kill   = "殺すべし"
+L.sb_tag_miss   = "行方不明"
 
 --- Help and settings menu (F1)
 
@@ -236,72 +236,71 @@ L.help_title = "ヘルプと設定"
 
 -- Tabs
 L.help_tut     = "チュートリアル"
-L.help_tut_tip = "How TTT works, in 6 steps"
+L.help_tut_tip = "6ページで分かるTTTの仕組み"
 
 L.help_settings = "設定"
-L.help_settings_tip = "Client-side settings"
+L.help_settings_tip = "クライアント側設定"
 
 -- Settings
 L.set_title_gui = "インターフェース設定"
 
-L.set_tips      = "Show gameplay tips at the bottom of the screen while spectating"
+L.set_tips      = "観戦中、画面の下部にゲームプレイのヒントを表示します"
+わ
+L.set_startpopup = "ラウンドの開始情報ポップアップ期間"
+L.set_startpopup_tip = "ラウンドが開始されると、小さなポップアップが数秒間画面の下部に表示されます。それが表示される時間をここで変更します。"
 
-L.set_startpopup = "Start of round info popup duration"
-L.set_startpopup_tip = "When the round starts, a small popup appears at the bottom of your screen for a few seconds. Change the time it displays for here."
-
-L.set_cross_opacity   = "Ironsight crosshair opacity"
-L.set_cross_disable   = "Disable crosshair completely"
-L.set_minimal_id      = "Minimalist Target ID under crosshair (no karma text, hints, etc)"
-L.set_healthlabel     = "Show health status label on health bar"
-L.set_lowsights       = "Lower weapon when using ironsights"
-L.set_lowsights_tip   = "Enable to position the weapon model lower on the screen while using ironsights. This will make it easier to see your target, but it will look less realistic."
-L.set_fastsw          = "Fast weapon switch"
-L.set_fastsw_tip      = "Enable to cycle through weapons without having to click again to use weapon. Enable show menu to show switcher menu."
-L.set_fastsw_menu     = "Enable menu with fast weapon switch"
-L.set_fastswmenu_tip  = "When fast weapons switch is enabled, the menu switcher menu will popup."
-L.set_wswitch         = "Disable weapon switch menu auto-closing"
-L.set_wswitch_tip     = "By default the weapon switcher automatically closes a few seconds after you last scroll. Enable this to make it stay up."
-L.set_cues            = "Play sound cue when a round begins or ends"
+L.set_cross_opacity   = "ADS時のクロスヘアの透過度"
+L.set_cross_disable   = "クロスヘアを完全に非表示"
+L.set_minimal_id      = "プレイヤーに照準を合わせたときに名前以外の情報（カルマ値、ヒント、その他）を表示しない"
+L.set_healthlabel     = "ヘルスバーに現在の健康状態を表示"
+L.set_lowsights       = "ADS時に武器を下げる"
+L.set_lowsights_tip   = "ADS時に武器のモデルを画面下に下げます。視界は良くなりますが非現実的な見た目です。"
+L.set_fastsw          = "高速武器切り替え"
+L.set_fastsw_tip      = "クリックで決定しなくても武器を切り替えられます。「高速武器切り替え時にメニューを表示する」を有効化することでメニュー付きにできます。"
+L.set_fastsw_menu     = "高速武器切り替え時にメニューを表示する"
+L.set_fastswmenu_tip  = "「高速武器切り替え」が有効な場合、武器メニューが表示されます。"
+L.set_wswitch         = "武器切り替えメニューの自動非表示を無効にする"
+L.set_wswitch_tip     = "初期設定では武器切り替えメニューは最後にスクロールしてから数秒が経つと自動で閉じられます。有効化することで自動で閉じないようにします。"
+L.set_cues            = "ラウンド開始時および終了時に音を鳴らす"
 
 
 L.set_title_play    = "ゲームプレイ設定"
 
-L.set_specmode      = "Spectate-only mode (always stay spectator)"
-L.set_specmode_tip  = "Spectate-only mode will prevent you from respawning when a new round starts, instead you stay Spectator."
-L.set_mute          = "Mute living players when dead"
-L.set_mute_tip      = "Enable to mute living players while you are dead/spectator."
+L.set_specmode      = "観戦オンリーモード（常に観戦者になる）"
+L.set_specmode_tip  = "観戦オンリーモードを有効化することで、新ラウンド開始時にリスポーンせずに常に観戦者になります。"
+L.set_mute          = "死亡中は生存者をミュートにする"
+L.set_mute_tip      = "有効化することで死亡中または観戦中は生存中のプレイヤーをミュートできます。"
 
 
 L.set_title_lang    = "言語設定"
 
 -- It may be best to leave this next one english, so english players can always
 -- find the language setting even if it's set to a language they don't know.
-L.set_lang          = "言語を選択してください:"
+L.set_lang          = "言語を選択:"
 
 
 --- Weapons and equipment, HUD and messages
 
 -- Equipment actions, like buying and dropping
-L.buy_no_stock    = "This weapon is out of stock: you already bought it this round."
-L.buy_pending     = "You already have an order pending, wait until you receive it."
-L.buy_received    = "You have received your special equipment."
+L.buy_no_stock    = "この武器は品切れです。あなたは既にこのラウンドでこの武器を購入済みです。"
+L.buy_pending     = "既に注文を受付済みです。受け取りまでお待ち下さい。"
+L.buy_received    = "特殊装備を受け取りました。"
 
-L.drop_no_room    = "You have no room here to drop your weapon!"
+L.drop_no_room    = "ここには武器を捨てるための空きがありません！"
 
-L.disg_turned_on  = "変装を有効化しました！"
-L.disg_turned_off = "変装を無効化しました。"
+L.disg_turned_on  = "変装中！"
+L.disg_turned_off = "変装解除"
 
 -- Equipment item descriptions
-L.item_passive    = "Passive effect item"
-L.item_active     = "Active use item"
-L.item_weapon     = "Weapon"
+L.item_passive    = "パッシブ効果アイテム"
+L.item_active     = "手動使用アイテム"
+L.item_weapon     = "武器"
 
 L.item_armor      = "ボディアーマー"
 L.item_armor_desc = [[
-Reduces bullet damage by 30% when
-you get hit.
+被弾時の銃弾ダメージを30%減少させる
 
-Default equipment for Detectives.]]
+Detectiveは標準装備]]
 
 L.item_radar      = "レーダー"
 L.item_radar_desc = [[
@@ -511,11 +510,11 @@ L.dna_help_secondary = "{secondaryfire} to open scan controls"
 
 -- Magneto stick
 L.magnet_name     = "マグネットスティック"
-L.magnet_help     = "{primaryfire} to attach body to surface."
+L.magnet_help     = "{primaryfire} で面に死体を取り付けます"
 
 -- Grenades and misc
 L.grenade_smoke   = "スモークグレネード"
-L.grenade_fire    = "Incendiary grenade"
+L.grenade_fire    = "焼夷グレネード"
 
 L.unarmed_name    = "ホルスター"
 L.crowbar_name    = "バール"
@@ -528,11 +527,11 @@ L.tele_name       = "テレポーター"
 L.tele_failed     = "テレポートに失敗しました。"
 L.tele_marked     = "テレポート位置をマークしました。"
 
-L.tele_no_ground  = "固い地面に立っていない限りテレポートすることはできません！"
+L.tele_no_ground  = "固い地面に立たないとテレポートできません！"
 L.tele_no_crouch  = "しゃがんだままテレポートすることはできません！"
 L.tele_no_mark    = "マークが付けられていません。テレポートする前に位置をマークしてください。"
 
-L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
+L.tele_no_mark_ground = "固い地面に立たないとテレポートの位置をマークできません！"
 L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
 
 L.tele_help_pri   = "{primaryfire} teleports to marked location."
@@ -548,11 +547,11 @@ number of uses is limited.]]
 L.ammo_pistol     = "9mm 弾薬"
 
 L.ammo_smg1       = "SMG 弾薬"
-L.ammo_buckshot   = "ショットガン 弾薬"
-L.ammo_357        = "ライフル 弾薬"
-L.ammo_alyxgun    = "デザートイーグル 弾薬"
-L.ammo_ar2altfire = "フレアガン 弾薬"
-L.ammo_gravity    = "ポルターガイスト 弾薬"
+L.ammo_buckshot   = "Shotgun 弾薬"
+L.ammo_357        = "Rifle 弾薬"
+L.ammo_alyxgun    = "Deagle 弾薬"
+L.ammo_ar2altfire = "Flare 弾薬"
+L.ammo_gravity    = "Poltergeist 弾薬"
 
 
 --- HUD interface text
@@ -586,10 +585,10 @@ L.karma_min    = "お荷物"
 L.corpse       = "死体"
 L.corpse_hint  = "{usekey} で検査します。 {walkkey} + {usekey} で人目を盗んで検査します。"
 
-L.target_disg  = " (DISGUISED)"
+L.target_disg  = " (変装している)"
 L.target_unid  = "身元不明の死体"
 
-L.target_traitor = "仲間の TRAITOR"
+L.target_traitor = "仲間のTRAITOR"
 L.target_detective = "DETECTIVE"
 
 L.target_credits = "検査で未使用のクレジットを受け取ります"
@@ -601,7 +600,7 @@ L.tbut_retime  = "{num} 秒後に再利用可能"
 L.tbut_help    = "{key} を押して起動"
 
 -- Equipment info lines (on the left above the health/ammo panel)
-L.disg_hud     = "変装しました。あなたの名前は非表示になります。"
+L.disg_hud     = "変装しました。あなたの名前は表示されません。"
 L.radar_hud    = "レーダーの次回スキャンまで: {time}"
 
 -- Spectator muting of living/dead
@@ -841,9 +840,9 @@ L.ev_c4_disarm2  = "{player} が {owner} の設置したC4の解除に失敗"
 L.ev_credit      = "{finder} が {player} の死体から {num} クレジットを発見"
 
 L.ev_start       = "ラウンド開始"
-L.ev_win_traitor = "卑劣な Traitor はラウンドに勝利しました！"
-L.ev_win_inno    = "愛すべき Innocent はラウンドに勝利しました！"
-L.ev_win_time    = "Traitor は時間を使い果たして敗北しました！"
+L.ev_win_traitor = "卑劣なTraitorはラウンドに勝利しました！"
+L.ev_win_inno    = "愛すべきInnocentはラウンドに勝利しました！"
+L.ev_win_time    = "Traitorは時間を使い果たして敗北しました！"
 
 --- Awards/highlights
 
