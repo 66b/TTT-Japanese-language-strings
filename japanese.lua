@@ -292,8 +292,8 @@ L.disg_turned_on  = "変装中！ "
 L.disg_turned_off = "変装解除 "
 
 -- Equipment item descriptions
-L.item_passive    = "パッシブ効果アイテム "
-L.item_active     = "手動使用アイテム "
+L.item_passive    = "パッシブアイテム "
+L.item_active     = "アクティブアイテム "
 L.item_weapon     = "武器 "
 
 L.item_armor      = "ボディアーマー "
@@ -376,7 +376,7 @@ your DNA.]]
 
 -- Defuser
 L.defuser_name    = "ディフューザー "
-L.defuser_help    = "{primaryfire} defuses targeted C4. "
+L.defuser_help    = "{primaryfire} で対象のC4を解除します。 "
 
 L.defuser_desc    = [[
 Instantly defuse a C4 explosive.
@@ -395,9 +395,9 @@ sound.]]
 
 -- Health station
 L.hstation_name   = "ヘルスステーション "
-L.hstation_hint   = "Press {usekey} to receive health. Charge: {num}. "
-L.hstation_broken = "Your Health Station has been destroyed! "
-L.hstation_help   = "{primaryfire} places the Health Station. "
+L.hstation_hint   = "{usekey} を押すとヘルスを受け取ります。チャージ: {num}。 "
+L.hstation_broken = "ヘルスステーションが破壊されました！ "
+L.hstation_help   = "{primaryfire} でヘルスステーションを設置します。 "
 
 L.hstation_desc   = [[
 Allows people to heal when placed.
@@ -425,8 +425,8 @@ The energy bursts damage people in
 close proximity.]]
 
 -- Radio
-L.radio_broken    = "Your Radio has been destroyed! "
-L.radio_help_pri  = "{primaryfire} places the Radio. "
+L.radio_broken    = "ラジオが破壊されました！ "
+L.radio_help_pri  = "{primaryfire} でラジオを設置します。 "
 
 L.radio_desc      = [[
 Plays sounds to distract or deceive.
@@ -846,10 +846,10 @@ L.ev_win_time    = "Traitorは時間を使い果たして敗北しました！ "
 
 --- Awards/highlights
 
-L.aw_sui1_title = "Suicide Cult Leader "
+L.aw_sui1_title = "自殺カルトリーダー "
 L.aw_sui1_text  = "showed the other suiciders how to do it by being the first to go. "
 
-L.aw_sui2_title = "Lonely and Depressed "
+L.aw_sui2_title = "孤独と憂鬱 "
 L.aw_sui2_text  = "was the only one who killed themselves. "
 
 L.aw_exp1_title = "Explosives Research Grant "
@@ -873,7 +873,7 @@ L.aw_fst4_text  = "struck the first blow for the innocent terrorists by making t
 L.aw_all1_title = "Deadliest Among Equals "
 L.aw_all1_text  = "was responsible for every kill made by the innocent this round. "
 
-L.aw_all2_title = "Lone Wolf "
+L.aw_all2_title = "一匹狼 "
 L.aw_all2_text  = "was responsible for every kill made by a traitor this round. "
 
 L.aw_nkt1_title = "I Got One, Boss! "
@@ -933,7 +933,7 @@ L.aw_pst1_text  = "scored {num} kills using the pistol. Then they went on to hug
 L.aw_pst2_title = "Small Caliber Slaughter "
 L.aw_pst2_text  = "killed a small army of {num} with a pistol. Presumably installed a tiny shotgun inside the barrel. "
 
-L.aw_sgn1_title = "Easy Mode "
+L.aw_sgn1_title = "イージーモード "
 L.aw_sgn1_text  = "applies the buckshot where it hurts, murdering {num} targets. "
 
 L.aw_sgn2_title = "A Thousand Little Pellets "
@@ -957,10 +957,10 @@ L.aw_mac1_text  = "killed {num} people with the MAC10, but won't say how much am
 L.aw_mac2_title = "Mac and Cheese "
 L.aw_mac2_text  = "wonders what would happen if they could wield two MAC10s. {num} times two? "
 
-L.aw_sip1_title = "Be Quiet "
+L.aw_sip1_title = "お静かに "
 L.aw_sip1_text  = "shut {num} people up with the silenced pistol. "
 
-L.aw_sip2_title = "Silenced Assassin "
+L.aw_sip2_title = "無音のアサシン "
 L.aw_sip2_text  = "killed {num} people who did not hear themselves die. "
 
 L.aw_knf1_title = "Knife Knowing You "
@@ -1002,16 +1002,16 @@ L.aw_tkl2_text  = "thought they got a Traitor twice, but was wrong both times. "
 L.aw_tkl3_title = "Karma-conscious "
 L.aw_tkl3_text  = "couldn't stop after killing two teammates. Three is their lucky number. "
 
-L.aw_tkl4_title = "Teamkiller "
+L.aw_tkl4_title = "チームキラー "
 L.aw_tkl4_text  = "murdered the entirety of their team. OMGBANBANBAN. "
 
-L.aw_tkl5_title = "Roleplayer "
+L.aw_tkl5_title = "ロールプレイヤー "
 L.aw_tkl5_text  = "was roleplaying a madman, honest. That's why they killed most of their team. "
 
-L.aw_tkl6_title = "Moron "
+L.aw_tkl6_title = "能なし "
 L.aw_tkl6_text  = "couldn't figure out which side they were on, and killed over half of their comrades. "
 
-L.aw_tkl7_title = "Redneck "
+L.aw_tkl7_title = "田舎者 "
 L.aw_tkl7_text  = "protected their turf real good by killing over a quarter of their teammates. "
 
 L.aw_brn1_title = "Like Grandma Used To Make Them "
@@ -1023,23 +1023,23 @@ L.aw_brn2_text  = "was heard cackling loudly after burning one of their many vic
 L.aw_brn3_title = "Pyrrhic Burnery "
 L.aw_brn3_text  = "burned them all, but is now all out of incendiary grenades! How will they cope!? "
 
-L.aw_fnd1_title = "Coroner "
+L.aw_fnd1_title = "検視官 "
 L.aw_fnd1_text  = "found {num} bodies lying around. "
 
-L.aw_fnd2_title = "Gotta Catch Em All "
+L.aw_fnd2_title = "ポ○モンゲットだぜ！ "
 L.aw_fnd2_text  = "found {num} corpses for their collection. "
 
-L.aw_fnd3_title = "Death Scent "
+L.aw_fnd3_title = "死の香り "
 L.aw_fnd3_text  = "keeps stumbling on random corpses, {num} times this round. "
 
-L.aw_crd1_title = "Recycler "
+L.aw_crd1_title = "リサイクル業者 "
 L.aw_crd1_text  = "scrounged up {num} leftover credits from corpses. "
 
-L.aw_tod1_title = "Pyrrhic Victory "
+L.aw_tod1_title = "重大な損失を招いて得た勝利 "
 L.aw_tod1_text  = "died only seconds before their team won the round. "
 
-L.aw_tod2_title = "I Hate This Game "
-L.aw_tod2_text  = "died right after the start of the round. "
+L.aw_tod2_title = "このゲームが嫌いです "
+L.aw_tod2_text  = "ラウンドの開始直後に死亡しました。 "
 
 
 --- New and modified pieces of text are placed below this point, marked with the
