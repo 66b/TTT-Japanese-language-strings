@@ -43,7 +43,7 @@ L.karma_dmg_full   = "あなたのカルマは {amount} のため、このラウ
 L.karma_dmg_other  = "あなたのカルマは {amount} のため、与ダメージが {num}% 減少します。 "
 
 --- Body identification messages
-L.body_found       = "{finder} が {role} である {victim} の死体を発見しました。 "
+L.body_found       = "{finder} が {victim} の死体を発見しました。 {role} "
 
 -- The {role} in body_found will be replaced by one of the following:
 L.body_found_t     = "コイツはTraitorです！! "
@@ -614,7 +614,7 @@ L.punch_help   = "Move keys or jump: punch object. Crouch: leave object. "
 L.punch_bonus  = "Your bad score lowered your punch-o-meter limit by {num} "
 L.punch_malus  = "Your good score increased your punch-o-meter limit by {num}! "
 
-L.spec_help    = "Click to spectate players, or press {usekey} on a physics object to possess it. "
+L.spec_help    = "クリックでプレイヤーを観戦するか、 {usekey} で物理オブジェクトに取り付きます。 "
 
 --- Info popups shown when the round starts
 
