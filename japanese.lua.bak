@@ -576,9 +576,9 @@ L.hp_death     = "死にかけている "
 
 -- TargetID karma status
 L.karma_max    = "信頼できる "
-L.karma_high   = "礼儀を知らない "
-L.karma_med    = "トリガーハッピー "
-L.karma_low    = "危険人物 "
+L.karma_high   = "拙い "
+L.karma_med    = "攻撃的 "
+L.karma_low    = "危険 "
 L.karma_min    = "お荷物 "
 
 -- TargetID misc
