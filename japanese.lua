@@ -620,30 +620,30 @@ L.spec_help    = "クリックでプレイヤーを観戦するか、 {usekey} �
 
 -- These are spread over multiple lines, hence the square brackets instead of
 -- quotes. That's a Lua thing. Every line break (enter) will show up in-game.
-L.info_popup_innocent = [[You are an innocent Terrorist! But there are traitors around...
-Who can you trust, and who is out to fill you with bullets?
+L.info_popup_innocent = [[あなたは無実(Innocent)のテロリストです！ただし周りには裏切り者(Traitor)がいます... 
+信頼できるのは誰か、あなたに弾丸を浴びせるのは誰か？ 
 
-Watch your back and work with your comrades to get out of this alive!]]
+背後に注意し、仲間と協力してここから生きて抜け出しましょう！ ]]
 
-L.info_popup_detective = [[You are a Detective! Terrorist HQ has given you special resources to find the traitors.
-Use them to help the innocent survive, but be careful:
-the traitors will be looking to take you down first!
+L.info_popup_detective = [[あなたは探偵(Detective)です！テロリストの司令部は裏切り者(Traitor)を見つけるための特別な資源をあなたに与えました。 
+罪なき者(Innocent)が生き残るために使用してください。でもご注意を: 
+Traitorはあなたを真っ先に倒す予定でしょう！
 
-Press {menukey} to receive your equipment!]]
+{menukey} を押すと装備を受け取れます！ ]]
 
-L.info_popup_traitor_alone = [[You are a TRAITOR! You have no fellow traitors this round.
+L.info_popup_traitor_alone = [[あなたは裏切り者(Traitor)です！このラウンドでは仲間のTraitorはいません。
 
-Kill all others to win!
+勝つために全員を殺してください！
 
-Press {menukey} to receive your special equipment!]]
+{menukey} を押すと特別装備を受け取れます! ]]
 
-L.info_popup_traitor = [[You are a TRAITOR! Work with fellow traitors to kill all others.
-But take care, or your treason may be discovered...
+L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員を殺すために仲間のTraitor達と連携してください。 
+でもご注意を。つまりあなたの裏切りが発覚するかもしれません...
 
-These are your comrades:
+こいつらがあなたの仲間です:
 {traitorlist}
 
-Press {menukey} to receive your special equipment!]]
+{menukey} を押すと特別装備を受け取れます! ]]
 
 --- Various other text
 L.name_kick = "A player was automatically kicked for changing their name during a round. "
@@ -751,44 +751,44 @@ L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at firs
 
 --- Round report
 
-L.report_title = "Round report "
+L.report_title = "ラウンドリポート "
 
 -- Tabs
-L.report_tab_hilite = "Highlights "
-L.report_tab_hilite_tip = "Round highlights "
-L.report_tab_events = "Events "
-L.report_tab_events_tip = "Log of the events that happened this round "
-L.report_tab_scores = "Scores "
+L.report_tab_hilite = "ハイライト "
+L.report_tab_hilite_tip = "ラウンドのハイライト "
+L.report_tab_events = "イベント "
+L.report_tab_events_tip = "このラウンドで起こったイベントのログ "
+L.report_tab_scores = "スコア "
 L.report_tab_scores_tip = "Points scored by each player in this round alone "
 
 -- Event log saving
-L.report_save     = "Save Log .txt "
-L.report_save_tip = "Saves the Event Log to a text file "
-L.report_save_error  = "No Event Log data to save. "
-L.report_save_result = "The Event Log has been saved to: "
+L.report_save     = "Log .txtの保存 "
+L.report_save_tip = "テキストファイルにイベントログを保存します。 "
+L.report_save_error  = "保存するイベントログのデータがありません。 "
+L.report_save_result = "イベントログが保存されました: "
 
 -- Big title window
 L.hilite_win_traitors = "THE TRAITORS WIN "
 L.hilite_win_innocent = "THE INNOCENT WIN "
 
-L.hilite_players1 = "{numplayers} players took part, {numtraitors} were traitors "
-L.hilite_players2 = "{numplayers} players took part, one of them the traitor "
+L.hilite_players1 = "{numplayers} プレイヤーが参加し、 {numtraitors} 人がTraitorでした "
+L.hilite_players2 = "{numplayers} プレイヤーが参加し、そのうちの1人がTraitorでした "
 
-L.hilite_duration = "The round lasted {time} "
+L.hilite_duration = "ラウンドは {time} 続きました "
 
 -- Columns
-L.col_time   = "Time "
-L.col_event  = "Event "
-L.col_player = "Player "
-L.col_role   = "Role "
-L.col_kills1 = "Innocent kills "
-L.col_kills2 = "Traitor kills "
-L.col_points = "Points "
-L.col_team   = "Team bonus "
-L.col_total  = "Total points "
+L.col_time   = "時間 "
+L.col_event  = "イベント "
+L.col_player = "プレイヤー "
+L.col_role   = "役職 "
+L.col_kills1 = "Innocentの殺害数 "
+L.col_kills2 = "Traitorの殺害数 "
+L.col_points = "ポイント "
+L.col_team   = "チームボーナス "
+L.col_total  = "総合得点 "
 
 -- Name of a trap that killed us that has not been named by the mapper
-L.something      = "something "
+L.something      = "何か "
 
 -- Kill events
 L.ev_blowup      = "{victim} blew themselves up "
@@ -802,8 +802,8 @@ L.ev_fall        = "{victim} fell to their death "
 L.ev_fall_pushed = "{victim} fell to their death after {attacker} pushed them "
 L.ev_fall_pushed_using = "{victim} fell to their death after {attacker} used {trap} to push them "
 
-L.ev_shot        = "{victim} was shot by {attacker} "
-L.ev_shot_using  = "{victim} was shot by {attacker} using a {weapon} "
+L.ev_shot        = "{victim} は {attacker} に撃たれた "
+L.ev_shot_using  = "{victim} は {weapon} で {attacker} に撃たれた "
 
 L.ev_drown       = "{victim} was drowned by {attacker} "
 L.ev_drown_using = "{victim} was drowned by {trap} triggered by {attacker} "
@@ -832,16 +832,16 @@ L.ev_other       = "{victim} was killed by {attacker} "
 L.ev_other_using = "{victim} was killed by {attacker} using {trap} "
 
 -- Other events
-L.ev_body        = "{finder} found the corpse of {victim} "
-L.ev_c4_plant    = "{player} がC4を設置 "
-L.ev_c4_boom     = "{player} の設置したC4が爆発 "
-L.ev_c4_disarm1  = "{player} が {owner} の設置したC4を解除 "
-L.ev_c4_disarm2  = "{player} が {owner} の設置したC4の解除に失敗 "
-L.ev_credit      = "{finder} が {player} の死体から {num} クレジットを発見 "
+L.ev_body        = "{finder} が {victim} の死体を発見した "
+L.ev_c4_plant    = "{player} がC4を設置した "
+L.ev_c4_boom     = "{player} の設置したC4が爆発した "
+L.ev_c4_disarm1  = "{player} が {owner} の設置したC4を解除した "
+L.ev_c4_disarm2  = "{player} が {owner} の設置したC4の解除に失敗した "
+L.ev_credit      = "{finder} が {player} の死体から {num} クレジットを発見した "
 
 L.ev_start       = "ラウンド開始 "
-L.ev_win_traitor = "卑劣なTraitorはラウンドに勝利しました！ "
-L.ev_win_inno    = "愛すべきInnocentはラウンドに勝利しました！ "
+L.ev_win_traitor = "卑劣なTraitorがラウンドに勝利しました！ "
+L.ev_win_inno    = "愛すべきInnocentがラウンドに勝利しました！ "
 L.ev_win_time    = "Traitorは時間を使い果たして敗北しました！ "
 
 --- Awards/highlights
