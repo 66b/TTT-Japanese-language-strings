@@ -6,28 +6,28 @@ local L = LANG.CreateLanguage("Japanese")
 L.traitor    = "Traitor"
 L.detective  = "Detective"
 L.innocent   = "Innocent"
-L.last_words = "Last Words"
+L.last_words = "最期の言葉"
 
-L.terrorists = "Terrorists"
-L.spectators = "Spectators"
+L.terrorists = "テロリスト"
+L.spectators = "観戦者"
 
 --- Round status messages
-L.round_minplayers = "Not enough players to start a new round..."
-L.round_voting     = "Vote in progress, delaying new round by {num} seconds..."
-L.round_begintime  = "A new round begins in {num} seconds. Prepare yourself."
-L.round_selected   = "The Traitors have been selected."
-L.round_started    = "The round has begun!"
-L.round_restart    = "The round has been forced to restart by an admin."
+L.round_minplayers = "新しいラウンドを開始するにはプレイヤーが足りません..."
+L.round_voting     = "投票が進行中、新しいラウンドは {num} 秒遅延します..."
+L.round_begintime  = "新しいラウンドは {num} 秒で開始されます。覚悟してください。"
+L.round_selected   = "Traitor が選ばれた。"
+L.round_started    = "ラウンドが始まった！"
+L.round_restart    = "管理者によってラウンドが強制的にリスタートされます。"
 
-L.round_traitors_one  = "Traitor, you stand alone."
-L.round_traitors_more = "Traitor, these are your allies: {names}"
+L.round_traitors_one  = "Traitor, あなたは孤立しています"
+L.round_traitors_more = "Traitor, これらがあなたの味方です: {names}"
 
-L.win_time         = "Time has run out. The Traitors lose."
-L.win_traitor      = "The Traitors have won!"
-L.win_innocent     = "The Traitors have been defeated!"
-L.win_showreport   = "Let's look at the round report for {num} seconds."
+L.win_time         = "時間が無くなりました。Traitor の負けです。"
+L.win_traitor      = "Traitor の勝利です！"
+L.win_innocent     = "Traitor は敗れました！"
+L.win_showreport   = "{num} 秒間のラウンドレポートを見てみましょう。"
 
-L.limit_round      = "Round limit reached. {mapname} will load soon."
+L.limit_round      = "ラウンド上限に達しました。 {mapname} はすぐにロードされます。"
 L.limit_time       = "Time limit reached. {mapname} will load soon."
 L.limit_vote       = "Round or time limit reached. Voting time!"
 L.limit_left       = "{num} round(s) or {time} minutes remaining before the map changes to {mapname}."
@@ -59,18 +59,18 @@ L.body_burning     = "Ouch! This corpse is on fire!"
 L.body_credits     = "You found {num} credit(s) on the body!"
 
 --- Menus and windows
-L.close = "Close"
-L.cancel = "Cancel"
+L.close = "閉じる"
+L.cancel = "キャンセル"
 
 -- For navigation buttons
 L.next = "Next"
 L.prev = "Previous"
 
 -- Equipment buying menu
-L.equip_title     = "Equipment"
-L.equip_tabtitle  = "Order Equipment"
+L.equip_title     = "装備"
+L.equip_tabtitle  = "装備を注文"
 
-L.equip_status    = "Ordering status"
+L.equip_status    = "注文ステータス"
 L.equip_cost      = "You have {num} credit(s) remaining."
 L.equip_help_cost = "Every piece of equipment you buy costs 1 credit."
 
@@ -92,7 +92,7 @@ L.equip_spec_desc  = "Description"
 L.equip_confirm    = "Buy equipment"
 
 -- Disguiser tab in equipment menu
-L.disg_name      = "Disguiser"
+L.disg_name      = "ディスガイザー"
 L.disg_menutitle = "Disguise control"
 L.disg_not_owned = "You are not carrying a Disguiser!"
 L.disg_enable    = "Enable disguise"
@@ -101,7 +101,7 @@ L.disg_help1     = "When your disguise is active, your name, health and karma do
 L.disg_help2     = "Press Numpad Enter to toggle the disguise without using the menu. You can also bind a different key to 'ttt_toggle_disguise' using the console."
 
 -- Radar tab in equipment menu
-L.radar_name      = "Radar"
+L.radar_name      = "レーダー"
 L.radar_menutitle = "Radar control"
 L.radar_not_owned = "You are not carrying a Radar!"
 L.radar_scan      = "Perform scan"
@@ -110,19 +110,19 @@ L.radar_help      = "Scan results show for {num} seconds, after which the Radar 
 L.radar_charging  = "Your Radar is still charging!"
 
 -- Transfer tab in equipment menu
-L.xfer_name       = "Transfer"
-L.xfer_menutitle  = "Transfer credits"
-L.xfer_no_credits = "You have no credits to give!"
-L.xfer_send       = "Send a credit"
-L.xfer_help       = "You can only transfer credits to fellow {role} players."
+L.xfer_name       = "譲渡"
+L.xfer_menutitle  = "クレジットを譲渡する"
+L.xfer_no_credits = "渡すクレジットを持っていません！"
+L.xfer_send       = "クレジットを送信"
+L.xfer_help       = "仲間の {role} であるプレイヤーにのみクレジットを譲渡できます。"
 
-L.xfer_no_recip   = "Recipient not valid, credit transfer aborted."
+L.xfer_no_recip   = "受け手が有効ではありません。クレジットの譲渡が中止されました。"
 L.xfer_no_credits = "Insufficient credits for transfer."
 L.xfer_success    = "Credit transfer to {player} completed."
 L.xfer_received   = "{player} has given you {num} credit."
 
 -- Radio tab in equipment menu
-L.radio_name      = "Radio"
+L.radio_name      = "ラジオ"
 L.radio_help      = "Click a button to make your Radio play that sound."
 L.radio_notplaced = "You must place the Radio to play sound on it."
 
@@ -170,17 +170,17 @@ L.quick_corpse_id = "{player}'s corpse"
 
 
 --- Body search window
-L.search_title  = "Body Search Results"
-L.search_info   = "Information"
-L.search_confirm = "Confirm Death"
-L.search_call   = "Call Detective"
+L.search_title  = "ボディーチェックの結果"
+L.search_info   = "情報"
+L.search_confirm = "死亡を確認"
+L.search_call   = "Detective を呼び出す"
 
 -- Descriptions of pieces of information found
 L.search_nick   = "This is the body of {player}."
 
-L.search_role_t = "This person was a Traitor!"
-L.search_role_d = "This person was a Detective."
-L.search_role_i = "This person was an innocent terrorist."
+L.search_role_t = "この人物は Traitor でした！"
+L.search_role_d = "この人物は Detective でした。"
+L.search_role_i = "この人物は Innocent でした。"
 
 L.search_words  = "Something tells you some of this person's last words were: '{lastwords}'"
 L.search_armor  = "They were wearing nonstandard body armor."
@@ -232,17 +232,17 @@ L.sb_tag_miss   = "MISSING"
 
 --- Help and settings menu (F1)
 
-L.help_title = "Help and Settings"
+L.help_title = "ヘルプと設定"
 
 -- Tabs
-L.help_tut     = "Tutorial"
+L.help_tut     = "チュートリアル"
 L.help_tut_tip = "How TTT works, in 6 steps"
 
-L.help_settings = "Settings"
+L.help_settings = "設定"
 L.help_settings_tip = "Client-side settings"
 
 -- Settings
-L.set_title_gui = "Interface settings"
+L.set_title_gui = "インターフェース設定"
 
 L.set_tips      = "Show gameplay tips at the bottom of the screen while spectating"
 
@@ -264,7 +264,7 @@ L.set_wswitch_tip     = "By default the weapon switcher automatically closes a f
 L.set_cues            = "Play sound cue when a round begins or ends"
 
 
-L.set_title_play    = "Gameplay settings"
+L.set_title_play    = "ゲームプレイ設定"
 
 L.set_specmode      = "Spectate-only mode (always stay spectator)"
 L.set_specmode_tip  = "Spectate-only mode will prevent you from respawning when a new round starts, instead you stay Spectator."
@@ -272,11 +272,11 @@ L.set_mute          = "Mute living players when dead"
 L.set_mute_tip      = "Enable to mute living players while you are dead/spectator."
 
 
-L.set_title_lang    = "Language settings"
+L.set_title_lang    = "言語設定"
 
 -- It may be best to leave this next one english, so english players can always
 -- find the language setting even if it's set to a language they don't know.
-L.set_lang          = "Select language:"
+L.set_lang          = "言語を選択してください:"
 
 
 --- Weapons and equipment, HUD and messages
@@ -288,22 +288,22 @@ L.buy_received    = "You have received your special equipment."
 
 L.drop_no_room    = "You have no room here to drop your weapon!"
 
-L.disg_turned_on  = "Disguise enabled!"
-L.disg_turned_off = "Disguise disabled."
+L.disg_turned_on  = "変装を有効化しました！"
+L.disg_turned_off = "変装を無効化しました。"
 
 -- Equipment item descriptions
 L.item_passive    = "Passive effect item"
 L.item_active     = "Active use item"
 L.item_weapon     = "Weapon"
 
-L.item_armor      = "Body Armor"
+L.item_armor      = "ボディアーマー"
 L.item_armor_desc = [[
 Reduces bullet damage by 30% when
 you get hit.
 
 Default equipment for Detectives.]]
 
-L.item_radar      = "Radar"
+L.item_radar      = "レーダー"
 L.item_radar_desc = [[
 Allows you to scan for life signs.
 
@@ -311,7 +311,7 @@ Starts automatic scans as soon as you
 buy it. Configure it in Radar tab of this
 menu.]]
 
-L.item_disg       = "Disguiser"
+L.item_disg       = "ディスガイザー"
 L.item_disg_desc  = [[
 Hides your ID info while on. Also avoids
 being the person last seen by a victim.
@@ -350,7 +350,7 @@ L.c4_status_armed    = "ARMED"
 L.c4_status_disarmed = "DISARMED"
 
 -- Visualizer
-L.vis_name        = "Visualizer"
+L.vis_name        = "ビジュアライザー"
 L.vis_hint        = "Press {usekey} to pick up (Detectives only)."
 
 L.vis_help_pri    = "{primaryfire} drops the activated device."
@@ -363,7 +363,7 @@ the victim was killed, but only if
 they died of gunshot wounds.]]
 
 -- Decoy
-L.decoy_name      = "Decoy"
+L.decoy_name      = "デコイ"
 L.decoy_no_room   = "You cannot carry this decoy."
 L.decoy_broken    = "Your Decoy has been destroyed!"
 
@@ -376,7 +376,7 @@ location of the Decoy if they scan for
 your DNA.]]
 
 -- Defuser
-L.defuser_name    = "Defuser"
+L.defuser_name    = "ディフューザー"
 L.defuser_help    = "{primaryfire} defuses targeted C4."
 
 L.defuser_desc    = [[
@@ -386,7 +386,7 @@ Unlimited uses. C4 will be easier to
 notice if you carry this.]]
 
 -- Flare gun
-L.flare_name      = "Flare gun"
+L.flare_name      = "フレアガン"
 L.flare_desc      = [[
 Can be used to burn corpses so that
 they are never found. Limited ammo.
@@ -395,7 +395,7 @@ Burning a corpse makes a distinct
 sound.]]
 
 -- Health station
-L.hstation_name   = "Health Station"
+L.hstation_name   = "ヘルスステーション"
 L.hstation_hint   = "Press {usekey} to receive health. Charge: {num}."
 L.hstation_broken = "Your Health Station has been destroyed!"
 L.hstation_help   = "{primaryfire} places the Health Station."
@@ -408,7 +408,7 @@ it can be damaged. Can be checked for
 DNA samples of its users.]]
 
 -- Knife
-L.knife_name      = "Knife"
+L.knife_name      = "ナイフ"
 L.knife_thrown    = "Thrown knife"
 
 L.knife_desc      = [[
@@ -437,7 +437,7 @@ play sounds on it using the Radio tab
 in this menu.]]
 
 -- Silenced pistol
-L.sipistol_name   = "Silenced Pistol"
+L.sipistol_name   = "消音ピストル"
 
 L.sipistol_desc   = [[
 Low-noise handgun, uses normal pistol
@@ -446,7 +446,7 @@ ammo.
 Victims will not scream when killed.]]
 
 -- Newton launcher
-L.newton_name     = "Newton launcher"
+L.newton_name     = "ニュートンランチャー"
 
 L.newton_desc     = [[
 Push people from a safe distance.
@@ -454,7 +454,7 @@ Push people from a safe distance.
 Infinite ammo, but slow to fire.]]
 
 -- Binoculars
-L.binoc_name      = "Binoculars"
+L.binoc_name      = "双眼鏡"
 L.binoc_desc      = [[
 Zoom in on corpses and identify them
 from a long distance away.
@@ -473,7 +473,7 @@ targets.
 Uses standard SMG ammo.]]
 
 -- DNA scanner
-L.dna_name        = "DNA scanner"
+L.dna_name        = "DNAスキャナー"
 L.dna_identify    = "Corpse must be identified to retrieve killer's DNA."
 L.dna_notfound    = "No DNA sample found on target."
 L.dna_limit       = "Storage limit reached. Remove old samples to add new ones."
@@ -510,27 +510,27 @@ L.dna_help_primary   = "{primaryfire} to collect a DNA sample"
 L.dna_help_secondary = "{secondaryfire} to open scan controls"
 
 -- Magneto stick
-L.magnet_name     = "Magneto-stick"
+L.magnet_name     = "マグネットスティック"
 L.magnet_help     = "{primaryfire} to attach body to surface."
 
 -- Grenades and misc
-L.grenade_smoke   = "Smoke grenade"
+L.grenade_smoke   = "スモークグレネード"
 L.grenade_fire    = "Incendiary grenade"
 
-L.unarmed_name    = "Holstered"
-L.crowbar_name    = "Crowbar"
-L.pistol_name     = "Pistol"
-L.rifle_name      = "Rifle"
-L.shotgun_name    = "Shotgun"
+L.unarmed_name    = "ホルスター"
+L.crowbar_name    = "バール"
+L.pistol_name     = "ピストル"
+L.rifle_name      = "ライフル"
+L.shotgun_name    = "ショットガン"
 
 -- Teleporter
-L.tele_name       = "Teleporter"
-L.tele_failed     = "Teleport failed."
-L.tele_marked     = "Teleport location marked."
+L.tele_name       = "テレポーター"
+L.tele_failed     = "テレポートに失敗しました。"
+L.tele_marked     = "テレポート位置をマークしました。"
 
-L.tele_no_ground  = "Cannot teleport unless standing on solid ground!"
-L.tele_no_crouch  = "Cannot teleport while crouched!"
-L.tele_no_mark    = "No location marked. Mark a destination before teleporting."
+L.tele_no_ground  = "固い地面に立っていない限りテレポートすることはできません！"
+L.tele_no_crouch  = "しゃがんだままテレポートすることはできません！"
+L.tele_no_mark    = "マークが付けられていません。テレポートする前に位置をマークしてください。"
 
 L.tele_no_mark_ground = "Cannot mark a teleport location unless standing on solid ground!"
 L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched!"
@@ -545,69 +545,69 @@ Teleporting makes noise, and the
 number of uses is limited.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol     = "9mm ammo"
+L.ammo_pistol     = "9mm 弾薬"
 
-L.ammo_smg1       = "SMG ammo"
-L.ammo_buckshot   = "Shotgun ammo"
-L.ammo_357        = "Rifle ammo"
-L.ammo_alyxgun    = "Deagle ammo"
-L.ammo_ar2altfire = "Flare ammo"
-L.ammo_gravity    = "Poltergeist ammo"
+L.ammo_smg1       = "SMG 弾薬"
+L.ammo_buckshot   = "ショットガン 弾薬"
+L.ammo_357        = "ライフル 弾薬"
+L.ammo_alyxgun    = "デザートイーグル 弾薬"
+L.ammo_ar2altfire = "フレアガン 弾薬"
+L.ammo_gravity    = "ポルターガイスト 弾薬"
 
 
 --- HUD interface text
 
 -- Round status
-L.round_wait   = "Waiting"
-L.round_prep   = "Preparing"
-L.round_active = "In progress"
-L.round_post   = "Round over"
+L.round_wait   = "待機中"
+L.round_prep   = "準備中"
+L.round_active = "進行中"
+L.round_post   = "ラウンド終了"
 
 -- Health, ammo and time area
 L.overtime     = "OVERTIME"
 L.hastemode    = "HASTE MODE"
 
 -- TargetID health status
-L.hp_healthy   = "Healthy"
-L.hp_hurt      = "Hurt"
-L.hp_wounded   = "Wounded"
-L.hp_badwnd    = "Badly Wounded"
-L.hp_death     = "Near Death"
+L.hp_healthy   = "健康"
+L.hp_hurt      = "けがをしている"
+L.hp_wounded   = "負傷している"
+L.hp_badwnd    = "重傷を負っている"
+L.hp_death     = "死にかけている"
 
 
 -- TargetID karma status
-L.karma_max    = "Reputable"
-L.karma_high   = "Crude"
-L.karma_med    = "Trigger-happy"
-L.karma_low    = "Dangerous"
-L.karma_min    = "Liability"
+L.karma_max    = "信頼できる"
+L.karma_high   = "拙い"
+L.karma_med    = "攻撃的"
+L.karma_low    = "危険"
+L.karma_min    = "お荷物"
 
 -- TargetID misc
-L.corpse       = "Corpse"
-L.corpse_hint  = "Press {usekey} to search. {walkkey} + {usekey} to search covertly."
+L.corpse       = "死体"
+L.corpse_hint  = "{usekey} で検査します。 {walkkey} + {usekey} で人目を盗んで検査します。"
 
 L.target_disg  = " (DISGUISED)"
-L.target_unid  = "Unidentified body"
+L.target_unid  = "身元不明の死体"
 
-L.target_traitor = "FELLOW TRAITOR"
+L.target_traitor = "仲間の TRAITOR"
 L.target_detective = "DETECTIVE"
 
-L.target_credits = "Search to receive unspent credits"
+L.target_credits = "検査で未使用のクレジットを受け取ります"
 
 -- Traitor buttons (HUD buttons with hand icons that only traitors can see)
-L.tbut_single  = "Single use"
-L.tbut_reuse   = "Reusable"
-L.tbut_retime  = "Reusable after {num} sec"
-L.tbut_help    = "Press {key} to activate"
+L.tbut_single  = "使い捨て"
+L.tbut_reuse   = "再利用可能"
+L.tbut_retime  = "{num} 秒後に再利用可能"
+L.tbut_help    = "{key} を押して起動"
 
 -- Equipment info lines (on the left above the health/ammo panel)
-L.disg_hud     = "Disguised. Your name is hidden."
-L.radar_hud    = "Radar ready for next scan in: {time}"
+L.disg_hud     = "変装しました。あなたの名前は非表示になります。"
+L.radar_hud    = "レーダーの次回スキャンまで: {time}"
 
 -- Spectator muting of living/dead
-L.mute_living  = "Living players muted"
-L.mute_specs   = "Spectators muted"
-L.mute_off     = "None muted"
+L.mute_living  = "生きているプレイヤーをミュート"
+L.mute_specs   = "観戦者をミュート"
+L.mute_off     = "どれもミュートしません"
 
 -- Spectators and prop possession
 L.punch_title  = "PUNCH-O-METER"
@@ -834,16 +834,16 @@ L.ev_other_using = "{victim} was killed by {attacker} using {trap}"
 
 -- Other events
 L.ev_body        = "{finder} found the corpse of {victim}"
-L.ev_c4_plant    = "{player} planted C4"
-L.ev_c4_boom     = "The C4 planted by {player} exploded"
-L.ev_c4_disarm1  = "{player} disarmed C4 planted by {owner}"
-L.ev_c4_disarm2  = "{player} failed to disarm C4 planted by {owner}"
-L.ev_credit      = "{finder} found {num} credit(s) on the corpse of {player}"
+L.ev_c4_plant    = "{player} がC4を設置"
+L.ev_c4_boom     = "{player} の設置したC4が爆発"
+L.ev_c4_disarm1  = "{player} が {owner} の設置したC4を解除"
+L.ev_c4_disarm2  = "{player} が {owner} の設置したC4の解除に失敗"
+L.ev_credit      = "{finder} が {player} の死体から {num} クレジットを発見"
 
-L.ev_start       = "The round started"
-L.ev_win_traitor = "The dastardly traitors won the round!"
-L.ev_win_inno    = "The lovable innocent terrorists won the round!"
-L.ev_win_time    = "The traitors ran out of time and lost!"
+L.ev_start       = "ラウンド開始"
+L.ev_win_traitor = "卑劣な Traitor はラウンドに勝利しました！"
+L.ev_win_inno    = "愛すべき Innocent はラウンドに勝利しました！"
+L.ev_win_time    = "Traitor は時間を使い果たして敗北しました！"
 
 --- Awards/highlights
 
