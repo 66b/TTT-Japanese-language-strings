@@ -244,10 +244,10 @@ L.help_settings_tip = "クライアント側設定 "
 -- Settings
 L.set_title_gui = "インターフェース設定 "
 
-L.set_tips      = "観戦中、画面の下部にゲームプレイのヒントを表示します "
-わ
-L.set_startpopup = "ラウンドの開始情報ポップアップ期間 "
-L.set_startpopup_tip = "ラウンドが開始されると、小さなポップアップが数秒間画面の下部に表示されます。それが表示される時間をここで変更します。 "
+L.set_tips      = "観戦中に画面下にTIPSを表示する "
+
+L.set_startpopup = "ラウンド開始時の情報ポップアップの表示時間 "
+L.set_startpopup_tip = "ラウンド開始時に画面下に小さなポップアップを数秒間表示します。ここで表示時間の設定が出来ます。 "
 
 L.set_cross_opacity   = "ADS時のクロスヘアの透過度 "
 L.set_cross_disable   = "クロスヘアを完全に非表示 "
