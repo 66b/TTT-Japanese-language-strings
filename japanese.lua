@@ -855,7 +855,7 @@ L.aw_sui2_text  = "was the only one who killed themselves. "
 L.aw_exp1_title = "Explosives Research Grant "
 L.aw_exp1_text  = "was recognized for their research on explosions. {num} test subjects helped out. "
 
-L.aw_exp2_title = "Field Research "
+L.aw_exp2_title = "実地調査 "
 L.aw_exp2_text  = "tested their own resistance to explosions. It was not high enough. "
 
 L.aw_fst1_title = "First Blood "
@@ -924,7 +924,7 @@ L.aw_hed3_text  = "applied their murder simulation training and headshotted {num
 L.aw_cbr1_title = "Thunk Thunk Thunk "
 L.aw_cbr1_text  = "has a mean swing with the crowbar, as {num} victims found out. "
 
-L.aw_cbr2_title = "Freeman "
+L.aw_cbr2_title = "フリーマン "
 L.aw_cbr2_text  = "covered their crowbar in the brains of no less than {num} people. "
 
 L.aw_pst1_title = "Persistent Little Bugger "
@@ -1047,15 +1047,15 @@ L.aw_tod2_text  = "ラウンドの開始直後に死亡しました。 "
 
 
 --- v23
-L.set_avoid_det     = "Avoid being selected as Detective "
-L.set_avoid_det_tip = "Enable this to ask the server not to select you as Detective if possible. Does not mean you are Traitor more often. "
+L.set_avoid_det     = "Detectiveに選ばれるのを防ぎます "
+L.set_avoid_det_tip = "これを有効にすると、可能であればDetectiveに選ばれないようにサーバーへ要求します。より頻繁にTraitorになるというわけではありません。 "
 
 --- v24
 L.drop_no_ammo = "Insufficient ammo in your weapon's clip to drop as an ammo box. "
 
 --- v31
-L.set_cross_brightness = "Crosshair brightness "
-L.set_cross_size = "Crosshair size "
+L.set_cross_brightness = "クロスヘアの明るさ "
+L.set_cross_size = "クロスヘアの大きさ "
 
 --- 5-25-15
-L.hat_retrieve = "You picked up a Detective's hat. "
+L.hat_retrieve = "Detectiveの帽子を拾いました。 "
