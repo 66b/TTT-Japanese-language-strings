@@ -304,219 +304,192 @@ Detectiveは標準装備]]
 
 L.item_radar      = "レーダー "
 L.item_radar_desc = [[
-Allows you to scan for life signs.
+生命反応を探知できる
 
-Starts automatic scans as soon as you
-buy it. Configure it in Radar tab of this
-menu.]]
+購入後即座に自動スキャンが行われる。レーダータブから設定が可能。 ]]
 
 L.item_disg       = "ディスガイザー "
 L.item_disg_desc  = [[
-Hides your ID info while on. Also avoids
-being the person last seen by a victim.
+有効化中は個人情報が表示されなくなる。加えて死体の最期に見た人にもならなくなる。
 
-Toggle in the Disguise tab of this menu
-or press Numpad Enter.]]
+変装タブまたはテンキーのEnterから設定が可能。 ]]
 
 -- C4
-L.c4_hint         = "Press {usekey} to arm or disarm. "
-L.c4_no_disarm    = "You cannot disarm another Traitor's C4 unless they are dead. "
-L.c4_disarm_warn  = "A C4 explosive you planted has been disarmed. "
-L.c4_armed        = "You have successfully armed the bomb. "
-L.c4_disarmed     = "You have successfully disarmed the bomb. "
-L.c4_no_room      = "You cannot carry this C4. "
+L.c4_hint         = "{usekey} で設置または解除。 "
+L.c4_no_disarm    = "他のTraitorが設置したC4は設置者が死なないかぎり解除不可。 "
+L.c4_disarm_warn  = "あなたが設置したC4は解除されました。 "
+L.c4_armed        = "C4の設置に成功しました。 "
+L.c4_disarmed     = "C4の解除に成功しました。 "
+L.c4_no_room      = "このC4は所持できません。 "
 
-L.c4_desc         = "Powerful timed explosive. "
+L.c4_desc         = "強力な時限爆弾。 "
 
-L.c4_arm          = "Arm C4 "
-L.c4_arm_timer    = "Timer "
-L.c4_arm_seconds  = "Seconds until detonation: "
-L.c4_arm_attempts = "In disarm attempts, {num} of the 6 wires will cause instant detonation when cut. "
+L.c4_arm          = "C4を設置する "
+L.c4_arm_timer    = "タイマー "
+L.c4_arm_seconds  = "起爆までの残り時間: "
+L.c4_arm_attempts = "6本のワイヤのうち{num}本が切ると即起爆するダミーです。 "
 
-L.c4_remove_title    = "Removal "
-L.c4_remove_pickup   = "Pick up C4 "
-L.c4_remove_destroy1 = "Destroy C4 "
-L.c4_remove_destroy2 = "Confirm: destroy "
+L.c4_remove_title    = "除去 "
+L.c4_remove_pickup   = "C4を拾う "
+L.c4_remove_destroy1 = "C4を破壊する "
+L.c4_remove_destroy2 = "破壊を確認 "
 
-L.c4_disarm       = "Disarm C4 "
-L.c4_disarm_cut   = "Click to cut wire {num} "
+L.c4_disarm       = "C4を解除する "
+L.c4_disarm_cut   = "クリックで{num}番目のワイヤをカットする "
 
-L.c4_disarm_t     = "Cut a wire to disarm the bomb. As you are Traitor, every wire is safe. Innocents don't have it so easy! "
-L.c4_disarm_owned = "Cut a wire to disarm the bomb. It's your bomb, so every wire will disarm it. "
-L.c4_disarm_other = "Cut a safe wire to disarm the bomb. It will explode if you get it wrong! "
+L.c4_disarm_t     = "C4を解除するにはワイヤをカットしなければなりません。あなたがTraitorの場合、どのワイヤも安全です。Innocentの場合はそうはいきませんよ！ "
+L.c4_disarm_owned = "C4を解除するにはワイヤをカットしなければなりません。これはあなたが仕掛けたものですから、どのワイヤも安全です。 "
+L.c4_disarm_other = "C4を解除するには正しいワイヤをカットしなければなりません。ミスればドカンです！ "
 
-L.c4_status_armed    = "ARMED "
-L.c4_status_disarmed = "DISARMED "
+L.c4_status_armed    = "設置済み "
+L.c4_status_disarmed = "解除済み "
 
 -- Visualizer
 L.vis_name        = "ビジュアライザー "
-L.vis_hint        = "Press {usekey} to pick up (Detectives only). "
+L.vis_hint        = "{usekey}で拾う（Detectiveのみ） "
 
-L.vis_help_pri    = "{primaryfire} drops the activated device. "
+L.vis_help_pri    = "{primaryfire}で設置し起動する。 "
 
 L.vis_desc        = [[
-Crime scene visualization device.
+殺害現場再現装置です。
 
-Analyzes a corpse to show how
-the victim was killed, but only if
-they died of gunshot wounds.]]
+死体の殺された状況を再現しますが、銃殺によるもののみです。 ]]
 
 -- Decoy
 L.decoy_name      = "デコイ "
-L.decoy_no_room   = "You cannot carry this decoy. "
-L.decoy_broken    = "Your Decoy has been destroyed! "
+L.decoy_no_room   = "このデコイは持てません。 "
+L.decoy_broken    = "あなたのデコイは破壊されてしまいました！ "
 
-L.decoy_help_pri  = "{primaryfire} plants the Decoy. "
+L.decoy_help_pri  = "{primaryfire}でデコイを設置する。 "
 
 L.decoy_desc      = [[
-Shows a fake radar sign to detectives,
-and makes their DNA scanner show the
-location of the Decoy if they scan for
-your DNA.]]
+DetectiveがあなたのDNAをスキャンした際に、デコイを設置した場所に偽のレーダー反応を表示します。 ]]
 
 -- Defuser
-L.defuser_name    = "ディフューザー "
-L.defuser_help    = "{primaryfire} で対象のC4を解除します。 "
+L.defuser_name    = "デヒューザー "
+L.defuser_help    = "{primaryfire}で対象のC4を解除する。 "
 
 L.defuser_desc    = [[
-Instantly defuse a C4 explosive.
+C4を即座に解除できます。
 
-Unlimited uses. C4 will be easier to
-notice if you carry this.]]
+使用回数制限無し。持っているとC4を探知しやすくなります。 ]]
 
 -- Flare gun
 L.flare_name      = "フレアガン "
 L.flare_desc      = [[
-Can be used to burn corpses so that
-they are never found. Limited ammo.
+死体を燃やすことで永遠に発見されなく出来ます。弾数無限。
 
-Burning a corpse makes a distinct
-sound.]]
+死体を燃やすと特有の音が発せられます。 ]]
 
 -- Health station
 L.hstation_name   = "ヘルスステーション "
-L.hstation_hint   = "{usekey} を押すとヘルスを受け取ります。チャージ: {num}。 "
-L.hstation_broken = "ヘルスステーションが破壊されました！ "
-L.hstation_help   = "{primaryfire} でヘルスステーションを設置します。 "
+L.hstation_hint   = " {usekey}でヘルスを回復する。現在のチャージ率: {num} "
+L.hstation_broken = "あなたのヘルスステーションが破壊されました！ "
+L.hstation_help   = "{primaryfire}でヘルスステーションを設置する。 "
 
 L.hstation_desc   = [[
-Allows people to heal when placed.
+設置することでプレイヤーが体力を回復できます。
 
-Slow recharge. Anyone can use it, and
-it can be damaged. Can be checked for
-DNA samples of its users.]]
+チャージ率は遅い。誰でも使え、誰でも破壊できます。使用者のDNAサンプルの確認もできます。 ]]
 
 -- Knife
 L.knife_name      = "ナイフ "
-L.knife_thrown    = "Thrown knife "
+L.knife_thrown    = "投げナイフ "
 
 L.knife_desc      = [[
-Kills wounded targets instantly and
-silently, but only has a single use.
+負傷している標的を即座にかつ静かに仕留められますが、一度だけの使い捨てです。
 
-Can be thrown using alternate fire.]]
+サブ攻撃キーで投げられます。 ]]
 
 -- Poltergeist
 L.polter_desc     = [[
-Plants thumpers on objects to shove
-them around violently.
+オブジェクトに杭を撃ち込み大暴れさせます。
 
-The energy bursts damage people in
-close proximity.]]
+爆発ダメージは付近のプレイヤーにダメージを与えます。 ]]
 
 -- Radio
-L.radio_broken    = "ラジオが破壊されました！ "
-L.radio_help_pri  = "{primaryfire} でラジオを設置します。 "
+L.radio_broken    = "あなたのラジオが破壊されました！ "
+L.radio_help_pri  = "{primaryfire}でラジオを設置する。 "
 
 L.radio_desc      = [[
-Plays sounds to distract or deceive.
+音を鳴らして撹乱したり欺いたりできます。
 
-Place the radio somewhere, and then
-play sounds on it using the Radio tab
-in this menu.]]
+ラジオをどこかに設置したら、このメニューにあるラジオタブから再生できます。 ]]
 
 -- Silenced pistol
-L.sipistol_name   = "消音ピストル "
+L.sipistol_name   = "サイレンサー付きピストル "
 
 L.sipistol_desc   = [[
-Low-noise handgun, uses normal pistol
-ammo.
+減音ハンドガン。通常のピストル弾を使用。
 
-Victims will not scream when killed.]]
+これで殺されたプレイヤーは断末魔を上げません。 ]]
 
 -- Newton launcher
 L.newton_name     = "ニュートンランチャー "
 
 L.newton_desc     = [[
-Push people from a safe distance.
+安全な距離からプレイヤーを押せます。
 
-Infinite ammo, but slow to fire.]]
+弾数は無限ですが、連射速度は遅いです。 ]]
 
 -- Binoculars
 L.binoc_name      = "双眼鏡 "
 L.binoc_desc      = [[
-Zoom in on corpses and identify them
-from a long distance away.
+遠距離から死体にズームして身元を確認できます。
 
-Unlimited uses, but identification
-takes a few seconds.]]
+使用回数は無限ですが、身元確認には数秒を要します。 ]]
 
-L.binoc_help_pri  = "{primaryfire} identifies a body. "
-L.binoc_help_sec  = "{secondaryfire} changes zoom level. "
+L.binoc_help_pri  = "{primaryfire}で死体の身元を調べる。 "
+L.binoc_help_sec  = "{secondaryfire}で倍率を変更する。 "
 
 -- UMP
 L.ump_desc        = [[
-Experimental SMG that disorients
-targets.
+標的を惑乱させる試験SMG。
 
-Uses standard SMG ammo.]]
+通常のSMG用弾薬を使用する。 ]]
 
 -- DNA scanner
 L.dna_name        = "DNAスキャナー "
-L.dna_identify    = "Corpse must be identified to retrieve killer's DNA. "
-L.dna_notfound    = "No DNA sample found on target. "
-L.dna_limit       = "Storage limit reached. Remove old samples to add new ones. "
-L.dna_decayed     = "DNA sample of the killer has decayed. "
-L.dna_killer      = "Collected a sample of the killer's DNA from the corpse! "
-L.dna_no_killer   = "The DNA could not be retrieved (killer disconnected?). "
-L.dna_armed       = "This bomb is live! Disarm it first! "
-L.dna_object      = "Collected {num} new DNA sample(s) from the object. "
-L.dna_gone        = "DNA not detected in area. "
+L.dna_identify    = "殺害者のDNAを得るには死体の身元を確認しなければなりません。 "
+L.dna_notfound    = "標的からDNAサンプルは発見できませんでした。 "
+L.dna_limit       = "サンプル保管数上限に達しました。新しいものを追加するには古いものを消去してください。 "
+L.dna_decayed     = "殺害者のDNAサンプルは風化しました。 "
+L.dna_killer      = "死体から殺害者のDNAサンプルを手に入れました！ "
+L.dna_no_killer   = "DNAは得られませんでした（殺害者がサーバーから切断した可能性）。 "
+L.dna_armed       = "この爆弾は動作中です！先に解除してください！ "
+L.dna_object      = "オブジェクトから新たなDNAサンプルを {num} 個入手しました。 "
+L.dna_gone        = "このエリアからはDNAは検知されていません。"
 
 L.dna_desc        = [[
-Collect DNA samples from things
-and use them to find the DNA's owner.
+DNAサンプルを入手してそのDNAの持ち主を特定できます。
 
-Use on fresh corpses to get the killer's DNA
-and track them down.]]
+新しい死体から殺害者のDNAを入手し追い詰められます。 ]]
 
-L.dna_menu_title  = "DNA scanning controls "
-L.dna_menu_sample = "DNA sample found on {source} "
-L.dna_menu_remove = "Remove selected "
-L.dna_menu_help1  = "These are DNA samples you have collected. "
+L.dna_menu_title  = "DNAスキャン設定 "
+L.dna_menu_sample = "{source}からDNAサンプルを発見しました。 "
+L.dna_menu_remove = "選択中のDNAサンプルを消去 "
+L.dna_menu_help1  = "これらが回収したDNAサンプルです。 "
 L.dna_menu_help2  = [[
-When charged, you can scan for the location of
-the player the selected DNA sample belongs to.
-Finding distant targets drains more energy.]]
+チャージが完了すると、選択中のDNAの持ち主の居場所を特定できます。目標が遠いほどよりチャージを消費します。 ]]
 
-L.dna_menu_scan   = "Scan "
-L.dna_menu_repeat = "Auto-repeat "
-L.dna_menu_ready  = "READY "
-L.dna_menu_charge = "CHARGING "
-L.dna_menu_select = "SELECT SAMPLE "
+L.dna_menu_scan   = "スキャン "
+L.dna_menu_repeat = "自動スキャン "
+L.dna_menu_ready  = "準備完了 "
+L.dna_menu_charge = "チャージ中 "
+L.dna_menu_select = "サンプルを選択 "
 
-L.dna_help_primary   = "{primaryfire} to collect a DNA sample "
-L.dna_help_secondary = "{secondaryfire} to open scan controls "
+L.dna_help_primary   = "{primaryfire}でDNAサンプルを入手する。 "
+L.dna_help_secondary = "{secondaryfire}でスキャン設定画面を開く。 "
 
 -- Magneto stick
 L.magnet_name     = "マグネットスティック "
-L.magnet_help     = "{primaryfire} で面に死体を取り付けます "
+L.magnet_help     = "{primaryfire}で死体を貼り付ける。 "
 
 -- Grenades and misc
 L.grenade_smoke   = "スモークグレネード "
 L.grenade_fire    = "焼夷グレネード "
 
-L.unarmed_name    = "ホルスター "
+L.unarmed_name    = "銃を仕舞う "
 L.crowbar_name    = "バール "
 L.pistol_name     = "ピストル "
 L.rifle_name      = "ライフル "
@@ -525,33 +498,32 @@ L.shotgun_name    = "ショットガン "
 -- Teleporter
 L.tele_name       = "テレポーター "
 L.tele_failed     = "テレポートに失敗しました。 "
-L.tele_marked     = "テレポート位置をマークしました。 "
+L.tele_marked     = "テレポート地点を保存しました。 "
 
-L.tele_no_ground  = "固い地面に立たないとテレポートできません！ "
-L.tele_no_crouch  = "しゃがんだままテレポートすることはできません！ "
-L.tele_no_mark    = "マークが付けられていません。テレポートする前に位置をマークしてください。 "
+L.tele_no_ground  = "平面上でないとテレポート出来ません！ "
+L.tele_no_crouch  = "しゃがみ中はテレポート出来ません！ "
+L.tele_no_mark    = "テレポート先が未設定。先にテレポート地点を保存してください。 "
 
-L.tele_no_mark_ground = "固い地面に立たないとテレポートの位置をマークできません！ "
-L.tele_no_mark_crouch = "Cannot mark a teleport location while crouched! "
+L.tele_no_mark_ground = "平面上でないとテレポート地点を保存出来ません！ "
+L.tele_no_mark_crouch = "しゃがみ中はテレポート地点を保存出来ません！ "
 
-L.tele_help_pri   = "{primaryfire} teleports to marked location. "
-L.tele_help_sec   = "{secondaryfire} marks current location. "
+L.tele_help_pri   = "{primaryfire}で保存済みの地点へテレポートする。 "
+L.tele_help_sec   = "{secondaryfire}で現在の地点をテレポート先として保存する。 "
 
 L.tele_desc       = [[
-Teleport to a previously marked spot.
+事前に保存した地点へテレポートできる。
 
-Teleporting makes noise, and the
-number of uses is limited.]]
+テレポートは特有の音が出るほか、使用回数制限がある。 ]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol     = "9mm 弾薬 "
+L.ammo_pistol     = "9mm弾 "
 
-L.ammo_smg1       = "SMG 弾薬 "
-L.ammo_buckshot   = "Shotgun 弾薬 "
-L.ammo_357        = "Rifle 弾薬 "
-L.ammo_alyxgun    = "Deagle 弾薬 "
-L.ammo_ar2altfire = "Flare 弾薬 "
-L.ammo_gravity    = "Poltergeist 弾薬 "
+L.ammo_smg1       = "SMG用弾薬 "
+L.ammo_buckshot   = "ショットガン用弾薬 "
+L.ammo_357        = "ライフル用弾薬 "
+L.ammo_alyxgun    = "ディーグル用弾薬 "
+L.ammo_ar2altfire = "フレアガン用弾薬 "
+L.ammo_gravity    = "ポルターガイスト用弾薬 "
 
 
 --- HUD interface text
@@ -601,20 +573,20 @@ L.tbut_help    = "{key} を押して起動 "
 
 -- Equipment info lines (on the left above the health/ammo panel)
 L.disg_hud     = "変装しました。あなたの名前は表示されません。 "
-L.radar_hud    = "レーダーの次回スキャンまで: {time} "
+L.radar_hud    = "レーダーが再スキャン可能になるまで残り: {time} "
 
 -- Spectator muting of living/dead
-L.mute_living  = "生きているプレイヤーをミュート "
-L.mute_specs   = "観戦者をミュート "
-L.mute_off     = "どれもミュートしません "
+L.mute_living  = "生存中のプレイヤーをミュートしました "
+L.mute_specs   = "観戦中のプレイヤーをミュートしました "
+L.mute_off     = "全てのミュートを解除しました "
 
 -- Spectators and prop possession
-L.punch_title  = "PUNCH-O-METER "
-L.punch_help   = "Move keys or jump: punch object. Crouch: leave object. "
-L.punch_bonus  = "Your bad score lowered your punch-o-meter limit by {num} "
-L.punch_malus  = "Your good score increased your punch-o-meter limit by {num}! "
+L.punch_title  = "霊圧メーター "
+L.punch_help   = "移動およびジャンプキー: オブジェクトを動かす しゃがみキー: 憑依を解く "
+L.punch_bonus  = "スコアがクソなため霊圧メーターは {num} に制限されます。 "
+L.punch_malus  = "スコアがよいため霊圧メーターは {num} に増加します！ "
 
-L.spec_help    = "クリックでプレイヤーを観戦するか、 {usekey} で物理オブジェクトに取り付きます。 "
+L.spec_help    = "クリックでプレイヤーを観戦するか、{usekey}でオブジェクトに憑依できます。 "
 
 --- Info popups shown when the round starts
 
@@ -627,7 +599,7 @@ L.info_popup_innocent = [[あなたは無実(Innocent)のテロリストです�
 
 L.info_popup_detective = [[あなたは探偵(Detective)です！テロリストの司令部は裏切り者(Traitor)を見つけるための特別な資源をあなたに与えました。 
 罪なき者(Innocent)が生き残るために使用してください。でもご注意を: 
-Traitorはあなたを真っ先に倒す予定でしょう！
+Traitorは真っ先にあなたを狙ってきますよ！
 
 {menukey} を押すと装備を受け取れます！ ]]
 
@@ -640,24 +612,24 @@ L.info_popup_traitor_alone = [[あなたは裏切り者(Traitor)です！この�
 L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員を殺すために仲間のTraitor達と連携してください。 
 でもご注意を。つまりあなたの裏切りが発覚するかもしれません...
 
-こいつらがあなたの仲間です:
+コイツらがあなたの仲間です:
 {traitorlist}
 
 {menukey} を押すと特別装備を受け取れます! ]]
 
 --- Various other text
-L.name_kick = "A player was automatically kicked for changing their name during a round. "
+L.name_kick = "ラウンド中に名前を変更したプレイヤーがキックされました "
 
-L.idle_popup = [[You were idle for {num} seconds and were moved into Spectator-only mode as a result. While you are in this mode, you will not spawn when a new round starts.
+L.idle_popup = [[あなたは {num} 秒間アイドル状態であったため観戦オンリーモードへ移されました。このモード中は新ラウンドが開始されてもスポーンしません。
 
-You can toggle Spectator-only mode at any time by pressing {helpkey} and unchecking the box in the Settings tab. You can also choose to disable it right now.]]
+いつでも{helpkey}を押して設定タブから観戦オンリーモードを解除出来ます。あるいは今すぐ解除することも出来ます。 ]]
 
-L.idle_popup_close = "Do nothing "
-L.idle_popup_off   = "Disable Spectator-only mode now "
+L.idle_popup_close = "何もしない "
+L.idle_popup_off   = "観戦オンリーモードを今すぐ解除する "
 
-L.idle_warning = "Warning: you appear to be idle/AFK, and will be made to spectate unless you show activity! "
+L.idle_warning = "警告: あなたはアイドル/AFK中のようです。行動しないと観戦モードに移行します！ "
 
-L.spec_mode_warning = "You are in Spectator Mode and will not spawn when a round starts. To disable this mode, press F1, go to Settings and uncheck 'Spectate-only mode'. "
+L.spec_mode_warning = "あなたは観戦モードのため新ラウンドが開始されてもスポーンしませんこのモードを解除するにはF1を押して設定タブから「観戦オンリーモード」のチェックを外しましょう。 "
 
 
 --- Tips, shown at bottom of screen to spectators
@@ -668,85 +640,85 @@ L.tips_panel_tip   = "Tip: "
 
 -- Tip texts
 
-L.tip1 = "Traitors can search a corpse silently, without confirming the death, by holding {walkkey} and pressing {usekey} on the corpse. "
+L.tip1 = "Traitorは{walkkey}+{usekey}で人目を盗んで死亡確認をせずに死体を調べられます。 "
 
-L.tip2 = "Arming a C4 explosive with a longer timer will increase the number of wires that cause it to explode instantly when an innocent attempts to disarm it. It will also beep softer and less often. "
+L.tip2 = "C4のタイマーを伸ばすとハズレのワイヤが増えるほか、動作音が静かになり頻度も低くなります。 "
 
-L.tip3 = "Detectives can search a corpse to find who is 'reflected in its eyes'. This is the last person the dead guy saw. That does not have to be the killer if they were shot in the back. "
+L.tip3 = "Detectiveは死体が「最期に見た人」を調べられます。ですが後ろから撃たれた場合は「最期に見た人」が犯人とは限りません。 "
 
-L.tip4 = "No one will know you have died until they find your dead body and identify you by searching it. "
+L.tip4 = "あなたの死体が発見され死亡を確認されない限り、あなたの死は絶対に誰にも知られません。 "
 
-L.tip5 = "When a Traitor kills a Detective, they instantly receive a credit reward. "
+L.tip5 = "TraitorがDetectiveを殺すと、即座にクレジットがもらえます。 "
 
-L.tip6 = "When a Traitor dies, all Detectives are rewarded equipment credits. "
+L.tip6 = "Traitorが死ぬと、全てのDetectiveはクレジットがもらえます。 "
 
-L.tip7 = "When the Traitors have made significant progress in killing innocents, they will receive an equipment credit as reward. "
+L.tip7 = "TraitorのInnocent殺しが大きく進展すると、クレジットがもらえます。 "
 
-L.tip8 = "Traitors and Detectives can collect unspent equipment credits from the dead bodies of other Traitors and Detectives. "
+L.tip8 = "TraitorおよびDetectiveは他のTおよびDから未使用のクレジットを入手できます。 "
 
-L.tip9 = "The Poltergeist can turn any physics object into a deadly projectile. Each punch is accompanied by a blast of energy hurting anyone nearby. "
+L.tip9 = "ポルターガイストはあらゆるオブジェクトを殺人プロップにできます。衝撃と爆発で付近のプレイヤーを殺傷します。 "
 
-L.tip10 = "As Traitor or Detective, keep an eye on red messages in the top right. These will be important for you. "
+L.tip10 = "TraitorおよびDetectiveは画面右上の赤いメッセージに注意しましょう。大切な情報が書かれています。 "
 
-L.tip11 = "As Traitor or Detective, keep in mind you are rewarded extra equipment credits if you and your comrades perform well. Make sure you remember to spend them! "
+L.tip11 = "TraitorおよびDetectiveは仲間のTおよびDがよく働くと追加のクレジットを貰えることを覚えておきましょう。使うのも忘れずに！ "
 
-L.tip12 = "The Detectives' DNA Scanner can be used to gather DNA samples from weapons and items and then scan to find the location of the player who used them. Useful when you can get a sample from a corpse or a disarmed C4! "
+L.tip12 = "DetectiveのDNAスキャナーは死体だけでなく武器やアイテム（解除したC4を含む）からもDNAサンプルを入手し、それを持っていたプレイヤーの位置を特定できます。 "
 
-L.tip13 = "When you are close to someone you kill, some of your DNA is left on the corpse. This DNA can be used with a Detective's DNA Scanner to find your current location. Better hide the body after you knife someone! "
+L.tip13 = "至近距離で誰かを殺すとその死体にはあなたのDNAが残ります。DNAはDetectiveのDNAスキャナーであなたの現在地を特定するのに使われます。誰かを殺したら隠しておくのが得策です！ "
 
-L.tip14 = "The further you are away from someone you kill, the faster your DNA sample on their body will decay. "
+L.tip14 = "殺した距離が遠ければ遠いほど、死体に残るDNAサンプルも早く風化します。 "
 
-L.tip15 = "Are you Traitor and going sniping? Consider trying out the Disguiser. If you miss a shot, run away to a safe spot, disable the Disguiser, and no one will know it was you who was shooting at them. "
+L.tip15 = "Traitorで狙撃するのがお好き？ 結構。ではますます好きになりますよ。さあさどうぞ。ディスガイザーです。外してしまっても大丈夫、安全なところに逃げて変装を解けばいいんです。そうすりゃ誰もあなたが撃ったなんてわかりません。 "
 
-L.tip16 = "As Traitor, the Teleporter can help you escape when chased, and allows you to quickly travel across a big map. Make sure you always have a safe position marked. "
+L.tip16 = "Traitorで逃走するときはテレポーターがあると便利です。広いマップだって端から端まで一瞬でひとっ飛びで逃げ切れます。先にテレポート先を設定しておくのをお忘れなく。 "
 
-L.tip17 = "Are the innocents all grouped up and hard to pick off? Consider trying out the Radio to play sounds of C4 or a firefight to lead some of them away. "
+L.tip17 = "Innocentが固まってて殺しにくい？ラジオでC4の音や銃撃戦の音を流してやり、逃げるように促しましょう。 "
 
-L.tip18 = "Using the Radio as Traitor, you can play sounds through your Equipment Menu after the radio has been placed. Queue up multiple sounds by clicking multiple buttons in the order you want them. "
+L.tip18 = "Traitorでラジオを設置したら装備メニューから音を流せます。複数のボタンを押すことで順番に再生予約ができます。 "
 
-L.tip19 = "As Detective, if you have leftover credits you could give a trusted Innocent a Defuser. Then you can spend your time doing the serious investigative work and leave the risky bomb defusal to them. "
+L.tip19 = "Detectiveでポイントが余ったら、信頼できるInnocentにデヒューザーをあげましょう。危険なC4の解除は彼に任せて捜査に集中できます。 "
 
-L.tip20 = "The Detectives' Binoculars allow long-range searching and identifying of corpses. Bad news if the Traitors were hoping to use a corpse as bait. Of course, while using the Binoculars a Detective is unarmed and distracted... "
+L.tip20 = "Detectiveの双眼鏡は遠距離から死体を調べられます。でももしその死体がワナだったら？双眼鏡を覗いているDetectiveは丸腰なうえに無警戒です。あっ…（察し） "
 
-L.tip21 =  "The Detectives' Health Station lets wounded players recover. Of course, those wounded people could be Traitors... "
+L.tip21 =  "Detectivesのヘルスステーションを使えば誰でも体力を回復できます。もちろんTraitorでも… "
 
-L.tip22 = "The Health Station records a DNA sample of everyone who uses it. Detectives can use this with the DNA Scanner to find out who has been healing up. "
+L.tip22 = "ヘルスステーションは使用したプレイヤーのDNAサンプルが全て残されます。そのためDetectiveはDNAスキャナーで使用者を特定できます。 "
 
-L.tip23 = "Unlike weapons and C4, the Radio equipment for Traitors does not contain a DNA sample of the person who planted it. Don't worry about Detectives finding it and blowing your cover. "
+L.tip23 = "武器やC4とは異なり、ラジオには設置したTraitorのDNAサンプルが残りません。特定される心配はありませんよ。 "
 
-L.tip24 = "Press {helpkey} to view a short tutorial or modify some TTT-specific settings. For example, you can permanently disable these tips there. "
+L.tip24 = "うんこぶちこむぞ "
 
-L.tip25 = "When a Detective searches a body, the result is available to all players via the scoreboard by clicking on the name of the dead person. "
+L.tip25 = "Detectiveが死体を調べ終わると、全てのプレイヤーはスコアボードから死者の名前をクリックすることで検査結果を見れます。 "
 
-L.tip26 = "In the scoreboard, a magnifying glass icon next to someone's name indicates you have search information about that person. If the icon is bright, the data comes from a Detective and may contain additional information. "
+L.tip26 = "スコアボードでプレイヤーの名前の隣にある虫眼鏡アイコンはその人物の捜査情報が見られることを示しています。アイコンが明るければDetectiveから情報が届いており、追加情報があるかもしれません。 "
 
-L.tip27 = "As Detective, corpses with a magnifying glass after the nickname have been searched by a Detective and their results are available to all players via the scoreboard. "
+L.tip27 = "Detectiveでプレイ中、名前の後ろに虫眼鏡アイコンが表示されていれば、その死体はDetectiveによって検査済みであり、スコアボードから全てのプレイヤーにその情報が共有されていることを示しています。 "
 
-L.tip28 = "Spectators can press {mutekey} to cycle through muting other spectators or living players. "
+L.tip28 = "ウルトラマンが拉致されて　腹筋ボコボコにパンチ食らって　胸のランプが点滅すると　あと3分で力尽き果てる　その時のウルトラマンの苦しむ姿にドキドキするって　ヒーロー凌辱だぜ!　仮面かぶった拓也ゎ前見えねぇし　息ゎ苦しいし　ウルトラマン最後の3分間ゎ30分以上にわたり　絶対負けるはずのないウルトラマンが倒れる　そんなのあり得ない!　力尽きたウルトラマンが犯される　マヂ苦しい　酸欠で死にそう　力が入らなくなったウルトラマンの股が大きく開かれて　ウルトラマンコにデカマラが容赦なく突き刺さる "
 
-L.tip29 = "If the server has installed additional languages, you can switch to a different language at any time in the Settings menu. "
+L.tip29 = "もっと舌使って舌舌舌舌舌舌舌舌舌＾～ＷＷｗｗｗｗｗＷ　ん，おかの舌（迫真）ＷWWWW　いいのかぁ?？(迫真)Wwww　アカーーーン！！！！！！！( 宮 川 大 輔 ) "
 
-L.tip30 = "Quickchat or 'radio' commands can be used by pressing {zoomkey}. "
+L.tip30 = "反抗すると・・・こうなるぞオン！やめろよ！んのヤロ！オン！ふざけんなよ！オン！オン！オアッ！オン！痛えなこの野郎！オン！殺されてえかお前、オン！ "
 
-L.tip31 = "As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview. "
+L.tip31 = "ああ～いいぜお前最ッ高どじょう！どじょうマンコ！ん？キモティカ？おぉすっげどじょうさん！ああ～クネクネクネクネ… おおすっげ！シマムシ！ああ～！シマムシ！くねくねしてるし！すっげえなこれ癖になりそう おお～ンいくぞぉ！あーイクイク！あ！アア～！アオ～！ "
 
-L.tip32 = "The Crowbar's secondary fire will push other players. "
+L.tip32 = "FF外から失礼するゾ～（謝罪） このツイート面白スギィ！！！！！自分、RTいいっすか？ 淫夢知ってそうだから淫夢のリストにぶち込んでやるぜー いきなりリプしてすみません！許してください！なんでもしますから！(なんでもするとは言ってない "
 
-L.tip33 = "Firing through the ironsights of a weapon will slightly increase your accuracy and decrease recoil. Crouching does not. "
+L.tip33 = "インム大学入試日！！！！！！！ONONONONONONONNON（マークシートをサイコロで埋める OFFOFFOFFOFFOFF（留年（一浪（二郎（爆散 "
 
-L.tip34 = "Smoke grenades are effective indoors, especially for creating confusion in crowded rooms. "
+L.tip34 = "講義全部寝てたから英語テスト分からないゾ＾～（Fラン（ひまわり学級よしじゃあ知ってる単語ぶち込んでやるぜ(1)ON(2)ON(3)ON(4)ON(5)ON(6)ON(7)ON(8)ON(9)ON(10)ONンアー～ーーーーーッ！！！！！！！！（留年（第1919364364回生 "
 
-L.tip35 = "As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives. "
+L.tip35 = "あっ！！！TVをつけたら名探偵インムがやっているゾ！！！！今回の犯人は(任意の名前)簡単すぎィ！！！114514秒でわかったゾ～～～！！！！（馬鹿（探偵の資格無し 腕時計型麻酔銃ONONONONON！！ン～～～～～～発射！！！んあっ（誤爆（自分が眠る "
 
-L.tip36 = "The tutorial available under {helpkey} contains an overview of the most important keys of the game. "
+L.tip36 = "ン～～～～～～～～インム漁船発進！！！！！！！！(ONONONONブリファッ！？マグロが1145141919181099999999匹取れたゾ～～～～～ファッ！？！？サーモンも取れたゾ～！！！！！！！！サーモンオンオンONONONONONONON(ンアーーーーっ！！！！！！(沈没 "
 
-L.tip37 = "On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair. "
+L.tip37 = "インムの守人よ・・・聞こえますか・・・？ アッ！この声はインム様の声だゾ！！！（幻聴（薬漬け 早速インムの儀式を行うぜ！！？！いいぜ！（インマニズム（古代インム文明 ONONONONONONONONONONONONONONONONONONONON（危険薬物イ "
 
-L.tip38 = "Many of the placeable equipment items (such as C4, Radio) can be stuck on walls using secondary fire. "
+L.tip38 = "入っちゃっ…！入らないみたい…入っちゃっ…！入らないみたい…入っちゃっ…！！！！『ボタンを押せ！！！』ったぁ！！！(ｷｭｲﾝｷｭｲﾝｷｭｲｰｰｰﾝ!!!)あ?太すぎ！ (筐体の上部から現場監督が生えてくる)『女の子モード突入！』 "
 
-L.tip39 = "C4 that explodes due to a mistake in disarming it has a smaller explosion than C4 that reaches zero on its timer. "
+L.tip39 = "48歳162cm85kgの課長は、乳首舐めや尺八で気持ちが良くなるとなぜか口をゆがませ赤ちゃん言葉や女言葉を使い始める変態課長。タチの太マラでアナルをズコズコとハードに責められ、徐々に妖しくこわれていく……。「太い、太い、太い、太いわ?」「ダメ、ダメ、オマンコこわれる?」 「もっと、もっと、もっと突いてよ?」などと叫び狂い、目一杯セックスの快感を楽しむ課長。そして最後は持参の大きなバイブをマラにあてがい、自分だけの世界に入っていく……。 "
 
-L.tip40 = "If it says 'HASTE MODE' above the round timer, the round will at first be only a few minutes long, but with every death the available time increases (like capturing a point in TF2). This mode puts the pressure on the traitors to keep things moving. "
+L.tip40 = "強制わいせつの疑いで逮捕されたのは、横浜市の会社員・前田英輝容疑者（３２）で、今月７日、渋谷の地下街で、男子中学生に「お尻にガムが付いているから取ってあげる」と声をかけ、近くのビルの非常階段で、男子中学生の下半身を触るなどした疑いがもたれています。警視庁によりますと、前田容疑者は「動くな、俺はゲイだ」などと言って脅して "
 
 
 --- Round report
@@ -759,7 +731,7 @@ L.report_tab_hilite_tip = "ラウンドのハイライト "
 L.report_tab_events = "イベント "
 L.report_tab_events_tip = "このラウンドで起こったイベントのログ "
 L.report_tab_scores = "スコア "
-L.report_tab_scores_tip = "Points scored by each player in this round alone "
+L.report_tab_scores_tip = "各プレイヤーがこのラウンドで獲得したスコア "
 
 -- Event log saving
 L.report_save     = "Log .txtの保存 "
@@ -791,53 +763,53 @@ L.col_total  = "総合得点 "
 L.something      = "何か "
 
 -- Kill events
-L.ev_blowup      = "{victim} blew themselves up "
-L.ev_blowup_trap = "{victim} was blown up by {trap} "
+L.ev_blowup      = "{victim}は自爆しました "
+L.ev_blowup_trap = "{victim}は{trap}で爆死しました "
 
-L.ev_tele_self   = "{victim} telefragged themselves "
-L.ev_sui         = "{victim} couldn't take it and killed themselves "
-L.ev_sui_using   = "{victim} killed themselves using {tool} "
+L.ev_tele_self   = "{victim}はテレフラグで自滅しました "
+L.ev_sui         = "{victim}は耐え切れずに自殺しました "
+L.ev_sui_using   = "{victim}は{tool}で自殺しました "
 
-L.ev_fall        = "{victim} fell to their death "
-L.ev_fall_pushed = "{victim} fell to their death after {attacker} pushed them "
-L.ev_fall_pushed_using = "{victim} fell to their death after {attacker} used {trap} to push them "
+L.ev_fall        = "{victim}が転落死しました "
+L.ev_fall_pushed = "{victim}が{attacker}に突き落とされて転落死しました "
+L.ev_fall_pushed_using = "{victim}が{attacker}の使った{trap}に突き落とされて転落死しました "
 
-L.ev_shot        = "{victim} は {attacker} に撃たれた "
-L.ev_shot_using  = "{victim} は {weapon} で {attacker} に撃たれた "
+L.ev_shot        = "{victim}は{attacker}に射殺されました "
+L.ev_shot_using  = "{victim}は{attacker}の{weapon}に射殺されました "
 
-L.ev_drown       = "{victim} was drowned by {attacker} "
-L.ev_drown_using = "{victim} was drowned by {trap} triggered by {attacker} "
+L.ev_drown       = "{victim}は{attacker}に溺死させられました "
+L.ev_drown_using = "{victim}は{attacker}の使った{trap}によって溺死させられました "
 
-L.ev_boom        = "{victim} was exploded by {attacker} "
-L.ev_boom_using  = "{victim} was blown up by {attacker} using {trap} "
+L.ev_boom        = "{victim}は{attacker}に爆死させられました "
+L.ev_boom_using  = "{victim}は{attacker}の使った{trap}に爆死させられました "
 
-L.ev_burn        = "{victim} was fried by {attacker} "
-L.ev_burn_using  = "{victim} was burned by {trap} due to {attacker} "
+L.ev_burn        = "{victim}は{attacker}に焼かれました "
+L.ev_burn_using  = "{victim}は{attacker}の使った{trap}に焼かれました "
 
-L.ev_club        = "{victim} was beaten up by {attacker} "
-L.ev_club_using  = "{victim} was pummeled to death by {attacker} using {trap} "
+L.ev_club        = "{victim}は{attacker}に撲殺されました "
+L.ev_club_using  = "{victim}は{attacker}の使った{trap}に撲殺されました "
 
-L.ev_slash       = "{victim} was stabbed by {attacker} "
-L.ev_slash_using = "{victim} was cut up by {attacker} using {trap} "
+L.ev_slash       = "{victim}は{attacker}に刺殺されました "
+L.ev_slash_using = "{victim}は{attacker}の使った{trap}に刺殺されました "
 
-L.ev_tele        = "{victim} was telefragged by {attacker} "
-L.ev_tele_using  = "{victim} was atomized by {trap} set by {attacker} "
+L.ev_tele        = "{victim}は{attacker}にテレフラグで殺されました "
+L.ev_tele_using  = "{victim}は{attacker}の使った{trap}にテレフラグで殺されました "
 
-L.ev_goomba      = "{victim} was crushed by the massive bulk of {attacker} "
+L.ev_goomba      = "{victim}は筋肉モリモリマッチョマンの変態である{attacker}にボコボコにされました "
 
-L.ev_crush       = "{victim} was crushed by {attacker} "
-L.ev_crush_using = "{victim} was crushed by {trap} of {attacker} "
+L.ev_crush       = "{victim}は{attacker}に圧殺されました "
+L.ev_crush_using = "{victim}は{attacker}の使った{trap}に圧殺されました "
 
-L.ev_other       = "{victim} was killed by {attacker} "
-L.ev_other_using = "{victim} was killed by {attacker} using {trap} "
+L.ev_other       = "{victim}は{attacker}に殺されました "
+L.ev_other_using = "{victim}は{attacker}の使った{trap}に殺されました "
 
 -- Other events
-L.ev_body        = "{finder} が {victim} の死体を発見した "
-L.ev_c4_plant    = "{player} がC4を設置した "
-L.ev_c4_boom     = "{player} の設置したC4が爆発した "
-L.ev_c4_disarm1  = "{player} が {owner} の設置したC4を解除した "
-L.ev_c4_disarm2  = "{player} が {owner} の設置したC4の解除に失敗した "
-L.ev_credit      = "{finder} が {player} の死体から {num} クレジットを発見した "
+L.ev_body        = "{finder}が{victim}の死体を発見しました "
+L.ev_c4_plant    = "{player}がC4を設置しました "
+L.ev_c4_boom     = "{player}の設置したC4が爆発しました "
+L.ev_c4_disarm1  = "{player}が{owner}の設置したC4を解除しました "
+L.ev_c4_disarm2  = "{player}が{owner}の設置したC4の解除に失敗しました "
+L.ev_credit      = "{finder}が{player}の死体から{num}クレジットを入手しました "
 
 L.ev_start       = "ラウンド開始 "
 L.ev_win_traitor = "卑劣なTraitorがラウンドに勝利しました！ "
