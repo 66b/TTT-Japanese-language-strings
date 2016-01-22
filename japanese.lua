@@ -383,7 +383,8 @@ L.flare_desc      = [[
 
 -- Health station
 L.hstation_name   = "ヘルスステーション "
-L.hstation_hint   = " {usekey}でヘルスを回復する。現在のチャージ率: {num} "
+-- 偽ヘルスステーションが原文ママなのでそれに合わせてこちらも英語にします
+L.hstation_hint   = "Press {usekey} to receive health. Charge: {num}."
 L.hstation_broken = "あなたのヘルスステーションが破壊されました！ "
 L.hstation_help   = "{primaryfire}でヘルスステーションを設置する。 "
 
