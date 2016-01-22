@@ -476,10 +476,12 @@ DNAサンプルを入手してそのDNAの持ち主を特定できます。
 
 L.dna_menu_title  = "DNAスキャン設定 "
 L.dna_menu_sample = "{source}からDNAサンプルを発見しました。 "
-L.dna_menu_remove = "選択中のDNAサンプルを消去 "
+L.dna_menu_remove = "DNAサンプルを削除 "
 L.dna_menu_help1  = "これらが回収したDNAサンプルです。 "
 L.dna_menu_help2  = [[
-チャージが完了すると、選択中のDNAの持ち主の居場所を特定できます。目標が遠いほどよりチャージを消費します。 ]]
+チャージが完了すると、選択中のDNAの持ち主の
+居場所を特定できます。
+目標が遠いほどよりチャージを消費します。 ]]
 
 L.dna_menu_scan   = "スキャン "
 L.dna_menu_repeat = "自動スキャン "
@@ -610,13 +612,13 @@ L.info_popup_detective = [[あなたは探偵(Detective)です！テロリスト
 罪なき者(Innocent)が生き残るために使用してください。
 でもご注意を。Traitorは真っ先にあなたを狙ってきますよ！
 
-{menukey} を押すと装備を購入できます！ ]]
+{menukey} を押すと特殊装備を購入できます！ ]]
 
 L.info_popup_traitor_alone = [[あなたは裏切り者(Traitor)です！このラウンドでは仲間のTraitorはいません。
 
 勝つために全員を殺してください！
 
-{menukey} を押すと装備を購入できます！ ]]
+{menukey} を押すと特殊装備を購入できます！ ]]
 
 L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員を殺すために仲間のTraitor達と連携してください。 
 でもご注意を。あなたの裏切りが発覚してしまうかもしれません...
@@ -624,7 +626,7 @@ L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員�
 コイツらがあなたの仲間です:
 {traitorlist}
 
-{menukey} を押すと装備を購入できます！ ]]
+{menukey} を押すと特殊装備を購入できます！ ]]
 
 --- Various other text
 L.name_kick = "ラウンド中に名前を変更したプレイヤーがキックされました "
