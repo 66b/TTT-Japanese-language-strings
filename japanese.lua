@@ -574,7 +574,7 @@ L.target_unid  = "身元不明の死体 "
 L.target_traitor = "仲間のTRAITOR "
 L.target_detective = "DETECTIVE "
 
-L.target_credits = "検査で未使用のクレジットを受け取ります "
+L.target_credits = "検査すると未使用のクレジットを受け取ります "
 
 -- Traitor buttons (HUD buttons with hand icons that only traitors can see)
 L.tbut_single  = "使い捨て "
