@@ -601,13 +601,13 @@ L.info_popup_detective = [[あなたは探偵(Detective)です！テロリスト
 罪なき者(Innocent)が生き残るために使用してください。でもご注意を: 
 Traitorは真っ先にあなたを狙ってきますよ！
 
-{menukey} を押すと装備を受け取れます！ ]]
+{menukey} を押すと装備を購入できます！ ]]
 
 L.info_popup_traitor_alone = [[あなたは裏切り者(Traitor)です！このラウンドでは仲間のTraitorはいません。
 
 勝つために全員を殺してください！
 
-{menukey} を押すと特別装備を受け取れます! ]]
+{menukey} を押すと装備を購入できます！ ]]
 
 L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員を殺すために仲間のTraitor達と連携してください。 
 でもご注意を。つまりあなたの裏切りが発覚するかもしれません...
@@ -615,7 +615,7 @@ L.info_popup_traitor = [[あなたは裏切り者(Traitor)です！他の全員�
 コイツらがあなたの仲間です:
 {traitorlist}
 
-{menukey} を押すと特別装備を受け取れます! ]]
+{menukey} を押すと装備を購入できます！ ]]
 
 --- Various other text
 L.name_kick = "ラウンド中に名前を変更したプレイヤーがキックされました "
@@ -998,7 +998,7 @@ L.aw_brn3_text  = "burned them all, but is now all out of incendiary grenades! H
 L.aw_fnd1_title = "検視官 "
 L.aw_fnd1_text  = "found {num} bodies lying around. "
 
-L.aw_fnd2_title = "ポ○モンゲットだぜ！ "
+L.aw_fnd2_title = "ポケモンゲットだぜ！ "
 L.aw_fnd2_text  = "found {num} corpses for their collection. "
 
 L.aw_fnd3_title = "死の香り "
@@ -1010,7 +1010,7 @@ L.aw_crd1_text  = "scrounged up {num} leftover credits from corpses. "
 L.aw_tod1_title = "重大な損失を招いて得た勝利 "
 L.aw_tod1_text  = "died only seconds before their team won the round. "
 
-L.aw_tod2_title = "このゲームが嫌いです "
+L.aw_tod2_title = "このゲーム嫌い "
 L.aw_tod2_text  = "ラウンドの開始直後に死亡しました。 "
 
 
