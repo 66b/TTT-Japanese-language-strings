@@ -163,7 +163,7 @@ L.quick_check   = "まだ誰か生き残っているか？ "
 
 -- {player} in the quickchat text normally becomes a player nickname, but can
 -- also be one of the below.  Keep these lowercase.
-L.quick_nobody    = "nobody "
+L.quick_nobody    = "誰か "
 L.quick_disg      = "変装した誰か "
 L.quick_corpse    = "未確認の死体 "
 L.quick_corpse_id = "{player}の死体 "
@@ -725,9 +725,9 @@ L.tip36 = "ン～～～～～～～～インム漁船発進！！！！！！！
 
 L.tip37 = "インムの守人よ・・・聞こえますか・・・？ アッ！この声はインム様の声だゾ！！！（幻聴（薬漬け 早速インムの儀式を行うぜ！！？！いいぜ！（インマニズム（古代インム文明 ONONONONONONONONONONONONONONONONONONONON（危険薬物イ "
 
-L.tip38 = "入っちゃっ…！入らないみたい…入っちゃっ…！入らないみたい…入っちゃっ…！！！！『ボタンを押せ！！！』ったぁ！！！(ｷｭｲﾝｷｭｲﾝｷｭｲｰｰｰﾝ!!!)あ?太すぎ！ (筐体の上部から現場監督が生えてくる)『女の子モード突入！』 "
+L.tip38 = "設置可能な装備品（C4やラジオなど）の多くはセカンダリファイアで壁に貼り付けることができます。 "
 
-L.tip39 = "48歳162cm85kgの課長は、乳首舐めや尺八で気持ちが良くなるとなぜか口をゆがませ赤ちゃん言葉や女言葉を使い始める変態課長。タチの太マラでアナルをズコズコとハードに責められ、徐々に妖しくこわれていく……。「太い、太い、太い、太いわ?」「ダメ、ダメ、オマンコこわれる?」 「もっと、もっと、もっと突いてよ?」などと叫び狂い、目一杯セックスの快感を楽しむ課長。そして最後は持参の大きなバイブをマラにあてがい、自分だけの世界に入っていく……。 "
+L.tip39 = "C4はタイマーが0になって爆発するよりも解除を失敗して爆発する方が小さな爆発で済みます。 "
 
 L.tip40 = "ラウンドタイマーの上に「HASTE MODE」と書かれている場合、ラウンドは最初はほんの数分しかありませんが、死亡が発生する度にタイムが増加します（TF2でCPを奪取するのと同様です）。このモードはTraitorがゲームを進め続けるようにプレッシャーをかけます。 "
 
@@ -835,22 +835,22 @@ L.aw_sui1_text  = "showed the other suiciders how to do it by being the first to
 L.aw_sui2_title = "孤独と憂鬱 "
 L.aw_sui2_text  = "was the only one who killed themselves. "
 
-L.aw_exp1_title = "Explosives Research Grant "
+L.aw_exp1_title = "爆発物研究助成金 "
 L.aw_exp1_text  = "was recognized for their research on explosions. {num} test subjects helped out. "
 
 L.aw_exp2_title = "実地調査 "
 L.aw_exp2_text  = "tested their own resistance to explosions. It was not high enough. "
 
-L.aw_fst1_title = "First Blood "
-L.aw_fst1_text  = "delivered the first innocent death at a traitor's hands. "
+L.aw_fst1_title = "ファーストブラッド "
+L.aw_fst1_text  = "Traitorの手で最初のInnocentの死をもたらした。 "
 
-L.aw_fst2_title = "First Bloody Stupid Kill "
-L.aw_fst2_text  = "scored the first kill by shooting a fellow traitor. Good job. "
+L.aw_fst2_title = "ファーストブラッディステューピッドキル "
+L.aw_fst2_text  = "仲間のTraitorに発砲して最初のキルを得点した。よくやった。 "
 
-L.aw_fst3_title = "First Blooper "
-L.aw_fst3_text  = "was the first to kill. Too bad it was an innocent comrade. "
+L.aw_fst3_title = "ファーストブルーパー "
+L.aw_fst3_text  = "一番乗りに殺した。残念ながらInnocentの同志だった。 "
 
-L.aw_fst4_title = "First Blow "
+L.aw_fst4_title = "ファーストブロー "
 L.aw_fst4_text  = "struck the first blow for the innocent terrorists by making the first death a traitor's. "
 
 L.aw_all1_title = "Deadliest Among Equals "
@@ -880,7 +880,7 @@ L.aw_nki1_text  = "found a traitor. Shot a traitor. Easy. "
 L.aw_nki2_title = "Applied to the Justice Squad "
 L.aw_nki2_text  = "escorted two traitors to the great beyond. "
 
-L.aw_nki3_title = "Do Traitors Dream Of Traitorous Sheep? "
+L.aw_nki3_title = "Traitorは反逆羊の夢を見るか？ "
 L.aw_nki3_text  = "put three traitors to rest. "
 
 L.aw_nki4_title = "Internal Affairs Employee "
