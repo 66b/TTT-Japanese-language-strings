@@ -559,7 +559,7 @@ L.hp_death     = "瀕死 "
 
 -- TargetID karma status
 L.karma_max    = "信頼できる "
-L.karma_high   = "荒くれ "
+L.karma_high   = "荒くれ者 "
 L.karma_med    = "トリガーハッピー "
 L.karma_low    = "危険人物 "
 L.karma_min    = "お荷物 "
@@ -697,6 +697,7 @@ L.tip22 = "ヘルスステーションは使用したプレイヤーのDNAサン
 
 L.tip23 = "武器やC4とは異なり、ラジオには設置したTraitorのDNAサンプルが残りません。特定される心配はありませんよ。 "
 
+--L.tip24 = "Press {helpkey} to view a short tutorial or modify some TTT-specific settings. For example, you can permanently disable these tips there."
 L.tip24 = "うんこぶちこむぞ "
 
 L.tip25 = "Detectiveが死体を調べ終わると、全てのプレイヤーはスコアボードから死者の名前をクリックすることで検査結果を見れます。 "
@@ -705,24 +706,33 @@ L.tip26 = "スコアボードでプレイヤーの名前の隣にある虫眼鏡
 
 L.tip27 = "Detectiveでプレイ中、名前の後ろに虫眼鏡アイコンが表示されていれば、その死体はDetectiveによって検査済みであり、スコアボードから全てのプレイヤーにその情報が共有されていることを示しています。 "
 
+--L.tip28 = "Spectators can press {mutekey} to cycle through muting other spectators or living players."
 L.tip28 = "ウルトラマンが拉致されて　腹筋ボコボコにパンチ食らって　胸のランプが点滅すると　あと3分で力尽き果てる　その時のウルトラマンの苦しむ姿にドキドキするって　ヒーロー凌辱だぜ!　仮面かぶった拓也ゎ前見えねぇし　息ゎ苦しいし　ウルトラマン最後の3分間ゎ30分以上にわたり　絶対負けるはずのないウルトラマンが倒れる　そんなのあり得ない!　力尽きたウルトラマンが犯される　マヂ苦しい　酸欠で死にそう　力が入らなくなったウルトラマンの股が大きく開かれて　ウルトラマンコにデカマラが容赦なく突き刺さる "
 
+--L.tip29 = "If the server has installed additional languages, you can switch to a different language at any time in the Settings menu."
 L.tip29 = "もっと舌使って舌舌舌舌舌舌舌舌舌＾～ＷＷｗｗｗｗｗＷ　ん，おかの舌（迫真）ＷWWWW　いいのかぁ?？(迫真)Wwww　アカーーーン！！！！！！！( 宮 川 大 輔 ) "
 
+--L.tip30 = "Quickchat or 'radio' commands can be used by pressing {zoomkey}."
 L.tip30 = "反抗すると・・・こうなるぞオン！やめろよ！んのヤロ！オン！ふざけんなよ！オン！オン！オアッ！オン！痛えなこの野郎！オン！殺されてえかお前、オン！ "
 
+--L.tip31 = "As Spectator, press {duckkey} to unlock your mouse cursor and click the buttons on this tips panel. Press {duckkey} again to go back to mouseview."
 L.tip31 = "ああ～いいぜお前最ッ高どじょう！どじょうマンコ！ん？キモティカ？おぉすっげどじょうさん！ああ～クネクネクネクネ… おおすっげ！シマムシ！ああ～！シマムシ！くねくねしてるし！すっげえなこれ癖になりそう おお～ンいくぞぉ！あーイクイク！あ！アア～！アオ～！ "
 
-L.tip32 = "FF外から失礼するゾ～（謝罪） このツイート面白スギィ！！！！！自分、RTいいっすか？ 淫夢知ってそうだから淫夢のリストにぶち込んでやるぜー いきなりリプしてすみません！許してください！なんでもしますから！(なんでもするとは言ってない "
+L.tip32 = "バールのセカンダリファイアで他のプレイヤーをプッシュします。 "
 
+--L.tip33 = "Firing through the ironsights of a weapon will slightly increase your accuracy and decrease recoil. Crouching does not."
 L.tip33 = "インム大学入試日！！！！！！！ONONONONONONONNON（マークシートをサイコロで埋める OFFOFFOFFOFFOFF（留年（一浪（二郎（爆散 "
 
+--L.tip34 = "Smoke grenades are effective indoors, especially for creating confusion in crowded rooms."
 L.tip34 = "講義全部寝てたから英語テスト分からないゾ＾～（Fラン（ひまわり学級よしじゃあ知ってる単語ぶち込んでやるぜ(1)ON(2)ON(3)ON(4)ON(5)ON(6)ON(7)ON(8)ON(9)ON(10)ONンアー～ーーーーーッ！！！！！！！！（留年（第1919364364回生 "
 
+--L.tip35 = "As Traitor, remember you can carry dead bodies and hide them from the prying eyes of the innocent and their Detectives."
 L.tip35 = "あっ！！！TVをつけたら名探偵インムがやっているゾ！！！！今回の犯人は(任意の名前)簡単すぎィ！！！114514秒でわかったゾ～～～！！！！（馬鹿（探偵の資格無し 腕時計型麻酔銃ONONONONON！！ン～～～～～～発射！！！んあっ（誤爆（自分が眠る "
 
+--L.tip36 = "The tutorial available under {helpkey} contains an overview of the most important keys of the game."
 L.tip36 = "ン～～～～～～～～インム漁船発進！！！！！！！！(ONONONONブリファッ！？マグロが1145141919181099999999匹取れたゾ～～～～～ファッ！？！？サーモンも取れたゾ～！！！！！！！！サーモンオンオンONONONONONONON(ンアーーーーっ！！！！！！(沈没 "
 
+--L.tip37 = "On the scoreboard, click the name of a living player and you can select a tag for them such as 'suspect' or 'friend'. This tag will show up if you have them under your crosshair."
 L.tip37 = "インムの守人よ・・・聞こえますか・・・？ アッ！この声はインム様の声だゾ！！！（幻聴（薬漬け 早速インムの儀式を行うぜ！！？！いいぜ！（インマニズム（古代インム文明 ONONONONONONONONONONONONONONONONONONONON（危険薬物イ "
 
 L.tip38 = "設置可能な装備品（C4やラジオなど）の多くはセカンダリファイアで壁に貼り付けることができます。 "
