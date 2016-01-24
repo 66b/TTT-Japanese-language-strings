@@ -550,11 +550,11 @@ L.overtime     = "OVERTIME "
 L.hastemode    = "HASTE MODE "
 
 -- TargetID health status
-L.hp_healthy   = "健康 "
-L.hp_hurt      = "けがをしている "
-L.hp_wounded   = "負傷している "
-L.hp_badwnd    = "重傷を負っている "
-L.hp_death     = "死にかけている "
+L.hp_healthy   = "無傷 "
+L.hp_hurt      = "怪我 "
+L.hp_wounded   = "負傷 "
+L.hp_badwnd    = "重傷 "
+L.hp_death     = "瀕死 "
 
 
 -- TargetID karma status
