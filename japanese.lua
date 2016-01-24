@@ -829,200 +829,200 @@ L.ev_win_time    = "Traitorは時間を使い果たして敗北しました！ "
 
 --- Awards/highlights
 
-L.aw_sui1_title = "自殺カルトリーダー "
-L.aw_sui1_text  = "showed the other suiciders how to do it by being the first to go. "
+L.aw_sui1_title = "自殺カルトの教祖様 "
+L.aw_sui1_text  = "真っ先に自殺して信徒の手本となった。 "
 
 L.aw_sui2_title = "孤独と憂鬱 "
-L.aw_sui2_text  = "was the only one who killed themselves. "
+L.aw_sui2_text  = "自殺したのはアンタだけだったよ。 "
 
 L.aw_exp1_title = "爆発物研究助成金 "
-L.aw_exp1_text  = "was recognized for their research on explosions. {num} test subjects helped out. "
+L.aw_exp1_text  = "君の爆発物研究の成果に対し助成金が支払われた。被験者 {num} の献身のおかげだ。 "
 
-L.aw_exp2_title = "実地調査 "
-L.aw_exp2_text  = "tested their own resistance to explosions. It was not high enough. "
+L.aw_exp2_title = "実地試験 "
+L.aw_exp2_text  = "自身の防爆性能を試験したが、十分なものではなかった。 "
 
 L.aw_fst1_title = "ファーストブラッド "
-L.aw_fst1_text  = "Traitorの手で最初のInnocentの死をもたらした。 "
+L.aw_fst1_text  = "真っ先にInnocentを殺したTraitorだった。 "
 
-L.aw_fst2_title = "ファーストブラッディステューピッドキル "
-L.aw_fst2_text  = "仲間のTraitorに発砲して最初のキルを得点した。よくやった。 "
+L.aw_fst2_title = "ファーストブラッド（？） "
+L.aw_fst2_text  = "仲間のTraitorを真っ先に殺したな、上出来だ。 "
 
-L.aw_fst3_title = "ファーストブルーパー "
-L.aw_fst3_text  = "一番乗りに殺した。残念ながらInnocentの同志だった。 "
+L.aw_fst3_title = "ファーストブラッ「ドアホ」 "
+L.aw_fst3_text  = "いの一番に人を殺したが、悪いことにそいつは仲間のInnocentだった。 "
 
-L.aw_fst4_title = "ファーストブロー "
-L.aw_fst4_text  = "struck the first blow for the innocent terrorists by making the first death a traitor's. "
+L.aw_fst4_title = "ファーストブラッ「ドカーン！」 "
+L.aw_fst4_text  = "Traitorを最初に爆殺したInnocentだ。 "
 
-L.aw_all1_title = "Deadliest Among Equals "
-L.aw_all1_text  = "was responsible for every kill made by the innocent this round. "
+L.aw_all1_title = "テロリスト一の危険人物 "
+L.aw_all1_text  = "このラウンドにおけるInnocentの死因は全てアンタのせいだった。 "
 
 L.aw_all2_title = "一匹狼 "
-L.aw_all2_text  = "was responsible for every kill made by a traitor this round. "
+L.aw_all2_text  = "このラウンドにおける他のプレイヤーの死因は全てTraitorであるアンタのせいだった。 "
 
-L.aw_nkt1_title = "I Got One, Boss! "
-L.aw_nkt1_text  = "managed to kill a single innocent. Sweet! "
+L.aw_nkt1_title = "一人やりましたぜ親分！ "
+L.aw_nkt1_text  = "Innocentを一人殺したな、でかしたぞ！ "
 
-L.aw_nkt2_title = "A Bullet For Two "
-L.aw_nkt2_text  = "showed the first one was not a lucky shot by killing another. "
+L.aw_nkt2_title = "弾は二人分ある "
+L.aw_nkt2_text  = "二人目も殺して一人目を殺せたのがマグレじゃないことを証明した。 "
 
-L.aw_nkt3_title = "Serial Traitor "
-L.aw_nkt3_text  = "ended three innocent lives of terrorism today. "
+L.aw_nkt3_title = "シリアル・トレイター "
+L.aw_nkt3_text  = "3人のInnocentの人生を終わらせた。 "
 
-L.aw_nkt4_title = "Wolf Among More Sheep-Like Wolves "
-L.aw_nkt4_text  = "eats innocent terrorists for dinner. A dinner of {num} courses. "
+L.aw_nkt4_title = "羊の皮をかぶったオオカミ "
+L.aw_nkt4_text  = "今日の夕食であるInnocent {num} 人を平らげた。 "
 
-L.aw_nkt5_title = "Counter-Terrorism Operative "
-L.aw_nkt5_text  = "gets paid per kill. Can now buy another luxury yacht. "
+L.aw_nkt5_title = "対テロ作戦 "
+L.aw_nkt5_text  = "殺った分だけボーナスだ。高級クルーザーをもう一艇買えるな。 "
 
-L.aw_nki1_title = "Betray This "
-L.aw_nki1_text  = "found a traitor. Shot a traitor. Easy. "
+L.aw_nki1_title = "裏切り者 "
+L.aw_nki1_text  = "Traitorを見つけ、撃ち殺した。カンタンだな。 "
 
-L.aw_nki2_title = "Applied to the Justice Squad "
-L.aw_nki2_text  = "escorted two traitors to the great beyond. "
+L.aw_nki2_title = "この身聖戦に捧げる "
+L.aw_nki2_text  = "二人のTraitorをあの世へと導いた。 "
 
-L.aw_nki3_title = "Traitorは反逆羊の夢を見るか？ "
-L.aw_nki3_text  = "put three traitors to rest. "
+L.aw_nki3_title = "トレイターは裏切り羊の夢を見るか？ "
+L.aw_nki3_text  = "三人のTraitorを安らかに眠らせた。 "
 
-L.aw_nki4_title = "Internal Affairs Employee "
-L.aw_nki4_text  = "gets paid per kill. Can now order their fifth swimming pool. "
+L.aw_nki4_title = "内務省職員 "
+L.aw_nki4_text  = "殺った分だけボーナスだ。５つ目のプールでも買うか。 "
 
-L.aw_fal1_title = "No Mr. Bond, I Expect You To Fall "
-L.aw_fal1_text  = "pushed someone off a great height. "
+L.aw_fal1_title = "落ちろ！ "
+L.aw_fal1_text  = "誰かを高所から突き落とした。 "
 
-L.aw_fal2_title = "Floored "
-L.aw_fal2_text  = "let their body hit the floor after falling from a significant altitude. "
+L.aw_fal2_title = "…落ちたな（確信） "
+L.aw_fal2_text  = "かなりの高所から死体を地面に叩き落とした。 "
 
-L.aw_fal3_title = "The Human Meteorite "
-L.aw_fal3_text  = "crushed someone by falling on them from a great height. "
+L.aw_fal3_title = "人間隕石 "
+L.aw_fal3_text  = "高所から誰かの上に落ちて踏み潰した。 "
 
-L.aw_hed1_title = "Efficiency "
-L.aw_hed1_text  = "discovered the joy of headshots and made {num}. "
+L.aw_hed1_title = "効率性 "
+L.aw_hed1_text  = "{num}人を犠牲にしてヘッドショットの喜びを見出した。 "
 
-L.aw_hed2_title = "Neurology "
-L.aw_hed2_text  = "removed the brains from {num} heads for a closer examination. "
+L.aw_hed2_title = "神経学 "
+L.aw_hed2_text  = "精密検査のため {num} 人の脳を摘出した。 "
 
-L.aw_hed3_title = "Videogames Made Me Do It "
-L.aw_hed3_text  = "applied their murder simulation training and headshotted {num} foes. "
+L.aw_hed3_title = "ビデオゲームに影響されたんだ "
+L.aw_hed3_text  = "殺人シミュレーション訓練に参加し {num} 人の敵をヘッドショットした。 "
 
-L.aw_cbr1_title = "Thunk Thunk Thunk "
-L.aw_cbr1_text  = "has a mean swing with the crowbar, as {num} victims found out. "
+L.aw_cbr1_title = "腹筋ボコボコにバールくらって "
+L.aw_cbr1_text  = "{num} 人がバールの犠牲となった。 "
 
 L.aw_cbr2_title = "フリーマン "
-L.aw_cbr2_text  = "covered their crowbar in the brains of no less than {num} people. "
+L.aw_cbr2_text  = "{num} 人が頭にバールを食らった。 "
 
-L.aw_pst1_title = "Persistent Little Bugger "
-L.aw_pst1_text  = "scored {num} kills using the pistol. Then they went on to hug someone to death. "
+L.aw_pst1_title = "他の武器は使わないのか？ "
+L.aw_pst1_text  = "ピストルで {num} 人を殺した。 "
 
-L.aw_pst2_title = "Small Caliber Slaughter "
-L.aw_pst2_text  = "killed a small army of {num} with a pistol. Presumably installed a tiny shotgun inside the barrel. "
+L.aw_pst2_title = "小口径による虐殺 "
+L.aw_pst2_text  = "ピストルで {num} 人からなる一団を殺した。銃身の中に小さいショットガンでも仕込んでるんじゃねぇか？ "
 
-L.aw_sgn1_title = "イージーモード "
-L.aw_sgn1_text  = "applies the buckshot where it hurts, murdering {num} targets. "
+L.aw_sgn1_title = "イージー・モード "
+L.aw_sgn1_text  = "急所を散弾でぶち抜いて {num} 人を殺した。 "
 
-L.aw_sgn2_title = "A Thousand Little Pellets "
-L.aw_sgn2_text  = "didn't really like their buckshot, so they gave it all away. {num} recipients did not live to enjoy it. "
+L.aw_sgn2_title = "千の散弾 "
+L.aw_sgn2_text  = "あまりに散弾が嫌いなもんだから全部捨てたらしい。そいつを受け取った{num}人は生きてられなかった。 "
 
-L.aw_rfl1_title = "Point and Click "
-L.aw_rfl1_text  = "shows all you need for {num} kills is a rifle and a steady hand. "
+L.aw_rfl1_title = "ポイント・アンド・クリック "
+L.aw_rfl1_text  = "{num}人を殺すにはライフルと震えない手があれば十分であると証明した。 "
 
-L.aw_rfl2_title = "I Can See Your Head From Here "
-L.aw_rfl2_text  = "knows their rifle. Now {num} other people know the rifle too. "
+L.aw_rfl2_title = "ここからお前の頭が見える見えるちょろいぜ。 "
+L.aw_rfl2_text  = "ライフルの扱いを心得てるな。他の {num} 人もライフルの恐ろしさを理解したようだ。 "
 
-L.aw_dgl1_title = "It's Like A Tiny Rifle "
-L.aw_dgl1_text  = "is getting the hang of the Desert Eagle and killed {num} people. "
+L.aw_dgl1_title = "まるで小さなライフルみたいだぁ（直喩） "
+L.aw_dgl1_text  = "デザートイーグルの扱いを心得て {num} 人を殺した。 "
 
-L.aw_dgl2_title = "Eagle Master "
-L.aw_dgl2_text  = "blew away {num} people with the deagle. "
+L.aw_dgl2_title = "イーグル・マスター "
+L.aw_dgl2_text  = "ディーグルで {num} 人を殺った。 "
 
-L.aw_mac1_title = "Pray and Slay "
-L.aw_mac1_text  = "killed {num} people with the MAC10, but won't say how much ammo they needed. "
+L.aw_mac1_title = "何発当てりゃ倒せるんだ "
+L.aw_mac1_text  = "MAC10で {num} 人を殺したが、何発必要だったかは答えたがらない。 "
 
-L.aw_mac2_title = "Mac and Cheese "
-L.aw_mac2_text  = "wonders what would happen if they could wield two MAC10s. {num} times two? "
+L.aw_mac2_title = "マックチーズバーガー "
+L.aw_mac2_text  = "MAC10を両手に持てたら何人殺せるだろうって？{num}x2人じゃないか？ "
 
-L.aw_sip1_title = "お静かに "
-L.aw_sip1_text  = "shut {num} people up with the silenced pistol. "
+L.aw_sip1_title = "だ↓ま↑れ→ "
+L.aw_sip1_text  = "サイレンサー付きピストルで {num} 人を黙らせた。 "
 
-L.aw_sip2_title = "無音のアサシン "
-L.aw_sip2_text  = "killed {num} people who did not hear themselves die. "
+L.aw_sip2_title = "無音の暗殺者 "
+L.aw_sip2_text  = "{num}人が自分の断末魔を聞く間もなく死んだ。 "
 
-L.aw_knf1_title = "Knife Knowing You "
-L.aw_knf1_text  = "stabbed someone in the face over the internet. "
+L.aw_knf1_title = "そこで承太郎！きさまが何秒動けようと関係ない処刑を思いついた…… "
+L.aw_knf1_text  = "ネット越しに誰かの顔面にナイフを突き立てた。 "
 
-L.aw_knf2_title = "Where Did You Get That From? "
-L.aw_knf2_text  = "was not a Traitor, but still killed someone with a knife. "
+L.aw_knf2_title = "それどこで拾ったんだ？ "
+L.aw_knf2_text  = "Traitorでないのに誰かをナイフで殺した。 "
 
-L.aw_knf3_title = "Such A Knife Man "
-L.aw_knf3_text  = "found {num} knives lying around, and made use of them. "
+L.aw_knf3_title = "なんてナイフ使いだ "
+L.aw_knf3_text  = "{num}人をナイフで殺した。 "
 
-L.aw_knf4_title = "World's Knifest Man "
-L.aw_knf4_text  = "killed {num} people with a knife. Don't ask me how. "
+L.aw_knf4_title = "世界一のナイフ使い "
+L.aw_knf4_text  = "{num}人をナイフで殺した。どうやってかは聞くな。 "
 
-L.aw_flg1_title = "To The Rescue "
-L.aw_flg1_text  = "used their flares to signal for {num} deaths. "
+L.aw_flg1_title = "救難信号 "
+L.aw_flg1_text  = "フレアガンで {num} 人の死を知らせた。 "
 
-L.aw_flg2_title = "Flare Indicates Fire "
-L.aw_flg2_text  = "taught {num} men about the danger of wearing flammable clothing. "
+L.aw_flg2_title = "フレアは火でできてるんだ "
+L.aw_flg2_text  = "可燃性の衣服を身に着けることの危険性を {num} 人に教えた。 "
 
-L.aw_hug1_title = "A H.U.G.E Spread "
-L.aw_hug1_text  = "was in tune with their H.U.G.E, somehow managing to make their bullets hit {num} people. "
+L.aw_hug1_title = "動くと当たらないだろ！？ "
+L.aw_hug1_text  = "H.U.G.Eと波長を合わせることでどうにか {num} 人に弾を当てられた。 "
 
-L.aw_hug2_title = "A Patient Para "
-L.aw_hug2_text  = "just kept firing, and saw their H.U.G.E patience rewarded with {num} kills. "
+L.aw_hug2_title = "忍耐の賜物 "
+L.aw_hug2_text  = "辛抱強くくH.U.G.Eを撃ち続けることで {num} 人を殺すことができた。 "
 
-L.aw_msx1_title = "Putt Putt Putt "
-L.aw_msx1_text  = "picked off {num} people with the M16. "
+L.aw_msx1_title = "ペシペシペシ "
+L.aw_msx1_text  = "M16で {num} 人を倒した。 "
 
-L.aw_msx2_title = "Mid-range Madness "
-L.aw_msx2_text  = "knows how to take down targets with the M16, scoring {num} kills. "
+L.aw_msx2_title = "中距離狂 "
+L.aw_msx2_text  = "M16で敵を倒す方法を心得ており、戦果は{num}人にのぼった。 "
 
-L.aw_tkl1_title = "Made An Oopsie "
-L.aw_tkl1_text  = "had their finger slip just when they were aiming at a buddy. "
+L.aw_tkl1_title = "手が滑った "
+L.aw_tkl1_text  = "味方に狙いをつけているときに手を滑らせてしまった。 "
 
-L.aw_tkl2_title = "Double-Oops "
-L.aw_tkl2_text  = "thought they got a Traitor twice, but was wrong both times. "
+L.aw_tkl2_title = "また手が滑った "
+L.aw_tkl2_text  = "Traitorを2人も殺ったと思いきやどちらも違った。 "
 
-L.aw_tkl3_title = "Karma-conscious "
-L.aw_tkl3_text  = "couldn't stop after killing two teammates. Three is their lucky number. "
+L.aw_tkl3_title = "わざとだろ？ "
+L.aw_tkl3_text  = "味方を2人殺してもまだ足りなかった。ラッキーナンバーが3だったんだ。 "
 
 L.aw_tkl4_title = "チームキラー "
-L.aw_tkl4_text  = "murdered the entirety of their team. OMGBANBANBAN. "
+L.aw_tkl4_text  = "味方全員を殺した。IDBANあるから覚えとけよお前。 "
 
 L.aw_tkl5_title = "ロールプレイヤー "
-L.aw_tkl5_text  = "was roleplaying a madman, honest. That's why they killed most of their team. "
+L.aw_tkl5_text  = "狂人の役割を全うしたんだ。でなきゃチームのほぼ全員を殺すなんてしないだろ。 "
 
-L.aw_tkl6_title = "能なし "
-L.aw_tkl6_text  = "couldn't figure out which side they were on, and killed over half of their comrades. "
+L.aw_tkl6_title = "アホ "
+L.aw_tkl6_text  = "自分がどちらのチームかも区別できず味方の半数以上を殺した。 "
 
 L.aw_tkl7_title = "田舎者 "
-L.aw_tkl7_text  = "protected their turf real good by killing over a quarter of their teammates. "
+L.aw_tkl7_text  = "縄張りを守るために味方の1/4以上以上を殺した。 "
 
-L.aw_brn1_title = "Like Grandma Used To Make Them "
-L.aw_brn1_text  = "fried several people to a nice crisp. "
+L.aw_brn1_title = "ばあちゃんが昔よく作ってくれた味だ "
+L.aw_brn1_text  = "数人を美味しくこんがりと焼きあげた。 "
 
-L.aw_brn2_title = "Pyroid "
-L.aw_brn2_text  = "was heard cackling loudly after burning one of their many victims. "
+L.aw_brn2_title = "パイロイド "
+L.aw_brn2_text  = "人を燃やして大きな叫び声を聞いた。 "
 
-L.aw_brn3_title = "Pyrrhic Burnery "
-L.aw_brn3_text  = "burned them all, but is now all out of incendiary grenades! How will they cope!? "
+L.aw_brn3_title = "やりすぎBBQ "
+L.aw_brn3_text  = "全員焼き殺したが焼夷グレネードは底を尽きてしまった！これからどうやっていけばいい！？ "
 
-L.aw_fnd1_title = "検視官 "
-L.aw_fnd1_text  = "found {num} bodies lying around. "
+L.aw_fnd1_title = "検死官 "
+L.aw_fnd1_text  = "{num}人の遺体を発見した。 "
 
-L.aw_fnd2_title = "ポケモンゲットだぜ！ "
-L.aw_fnd2_text  = "found {num} corpses for their collection. "
+L.aw_fnd2_title = "ポ○モンゲットだぜ！ "
+L.aw_fnd2_text  = "{num}人の遺体を見つけてコレクションに加えた。 "
 
 L.aw_fnd3_title = "死の香り "
-L.aw_fnd3_text  = "keeps stumbling on random corpses, {num} times this round. "
+L.aw_fnd3_text  = "このラウンドだけで{num}人の死体に偶然出くわした。 "
 
-L.aw_crd1_title = "リサイクル業者 "
-L.aw_crd1_text  = "scrounged up {num} leftover credits from corpses. "
+L.aw_crd1_title = "回収業者 "
+L.aw_crd1_text  = "死体から {num} クレジットを回収した。 "
 
-L.aw_tod1_title = "重大な損失を招いて得た勝利 "
-L.aw_tod1_text  = "died only seconds before their team won the round. "
+L.aw_tod1_title = "勝ったけど割に合わないな "
+L.aw_tod1_text  = "味方がラウンドに勝利するわずか数秒前に死んだ。 "
 
-L.aw_tod2_title = "このゲーム嫌い "
-L.aw_tod2_text  = "ラウンドの開始直後に死亡しました。 "
+L.aw_tod2_title = "TTT嫌い "
+L.aw_tod2_text  = "ラウンドが始まってすぐに死んだ。 "
 
 
 --- New and modified pieces of text are placed below this point, marked with the
