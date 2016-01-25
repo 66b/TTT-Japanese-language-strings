@@ -900,7 +900,7 @@ L.aw_fal1_title = "落ちろ！ "
 L.aw_fal1_text  = "誰かを高所から突き落とした。 "
 
 L.aw_fal2_title = "…落ちたな（確信） "
-L.aw_fal2_text  = "かなりの高所から死体を地面に叩き落とした。 "
+L.aw_fal2_text  = "かなりの高所から落ちて自分の体を地面に叩きつけた。 "
 
 L.aw_fal3_title = "人間隕石 "
 L.aw_fal3_text  = "高所から誰かの上に落ちて踏み潰した。 "
